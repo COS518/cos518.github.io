@@ -1,0 +1,17 @@
+<h1> {{ site.course_title }} ({{ site.course_term }} {{ site.course_year }}) </h1>
+
+<div id='topnavbar'>
+  <ul class='topnavlist'>
+    {% for page in site.directory %}
+      {% if page.name %}
+        {% assign page_name = page.name %}
+        {% assign page_path = page.path %}
+      {% else %}
+        {% assign page_name = page %}
+        {% assign page_path = page | append: '.html' %}
+      {% endif %}
+      
+      <li><a href='{{ page_path }}'>{{ page_name | capitalize }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
