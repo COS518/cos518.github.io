@@ -2,6 +2,9 @@
 *~
 .DS_Store
 
+# Jekyll
+_site
+
 # Logs
 logs
 *.log
