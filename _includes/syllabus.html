@@ -1,0 +1,22 @@
+<table class="schedule">
+  <tr>
+    <th>Date</th>
+    <th>Topics</th>
+    <th>Readings</th>
+    <th>Notes</th>
+  </tr>
+
+  {% for unit in site.data.syllabus %}
+    <tr class="lechead">
+      <td class="lechead" colspan="4">{{ unit.unit }}</td>
+    </tr>
+    {% for lecture in unit.lectures %}
+      <tr class="lecture {% cycle '', 'alt' %}">
+        <td>{{ lecture.date }}</td>
+        <td>{{ lecture.topic }}</td>
+        <td>{{ lecture.reading }}</td>
+        <td>{{ lecture.notes }}</td>
+      </tr>
+    {% endfor %}
+  {% endfor %}
+</table>

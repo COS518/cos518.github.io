@@ -6,7 +6,7 @@ directory:
   - name: 'home'
     path: '/'
   - syllabus
-  - project
+  - projects
   - name: 'piazza'
     path: 'https://piazza.com/princeton/spring2017/cos518'
 

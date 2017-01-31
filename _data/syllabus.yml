@@ -1,0 +1,21 @@
+- unit: unit 1
+  lectures:
+    - date: 9/14
+      topic: topic 1
+      reading: reading 1
+      notes: notes 1
+    - date: 9/16
+      topic: topic 2
+      reading: reading 2
+      notes: notes 2
+
+- unit: unit 2
+  lectures:
+    - date: 10/14
+      topic: topic 3
+      reading: reading 3
+      notes: notes 3
+    - date: 10/16
+      topic: topic 4
+      reading: reading 4
+      notes: notes 4
