@@ -1,27 +1,27 @@
-<table class="schedule">
+<table class='schedule'>
   <tr>
-    <th>Date</th>
-    <th>Topics</th>
-    <th>Readings</th>
-    <th>Notes</th>
+    <th class='date'>Date</th>
+    <th class='topics'>Topics</th>
+    <th class='readings'>Readings</th>
+    <th class='notes'>Notes</th>
   </tr>
 
   {% for unit in site.data.syllabus %}
-    <tr class="lechead">
-      <td class="lechead" colspan="4">{{ unit.unit }}</td>
+    <tr class='lechead'>
+      <td class='lechead' colspan='4'>{{ unit.unit }}</td>
     </tr>
     {% for session in unit.sessions %}
       {% if session.type == 'lecture' %}
-        <tr class="lecture {% cycle '', 'alt' %}">
+        <tr class='lecture {% cycle '', 'alt' %}'>
       {% else %}
-        <tr class="{{ session.type }}">
+        <tr class='{{ session.type }}'>
       {% endif %}
         <td>{{ session.date }}</td>
         <td>{{ session.topic }}</td>
         <td>
           <ul>
             {% for reading in session.readings %}
-              <li><a href="{{ reading.link }}">{{ reading.name }}</a></li>
+              <li><a href='{{ reading.link }}'>{{ reading.name }}</a></li>
             {% endfor %}
           </ul>
         </td>
