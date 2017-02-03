@@ -229,7 +229,7 @@ table.Schedule tr,th,td {
 
 table.schedule tr.lecture { background: white; }
 table.schedule tr.lecture.alt { background: #ddd; }
-table.schedule tr.noclass { background: #CCCCCC; }
+table.schedule tr.noclass { background: #aaa; }
 table.schedule tr.exam    { background: yellow; }
 table.schedule tr.presentations    { background: yellow; }
 table.schedule tr.recitation { background: #ccf; }
@@ -242,6 +242,7 @@ table.schedule tr th#notes { width: 35%; }
 table.schedule tr th#readings { width: 20%; }
 table.schedule tr th#presenter { width: 10%; }
 
+table.schedule li { padding: 0px; }
 
 /*div#Overview {
   position: relative;

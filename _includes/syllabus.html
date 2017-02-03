@@ -10,12 +10,22 @@
     <tr class="lechead">
       <td class="lechead" colspan="4">{{ unit.unit }}</td>
     </tr>
-    {% for lecture in unit.lectures %}
-      <tr class="lecture {% cycle '', 'alt' %}">
-        <td>{{ lecture.date }}</td>
-        <td>{{ lecture.topic }}</td>
-        <td>{{ lecture.reading }}</td>
-        <td>{{ lecture.notes }}</td>
+    {% for session in unit.sessions %}
+      {% if session.type == 'lecture' %}
+        <tr class="lecture {% cycle '', 'alt' %}">
+      {% else %}
+        <tr class="{{ session.type }}">
+      {% endif %}
+        <td>{{ session.date }}</td>
+        <td>{{ session.topic }}</td>
+        <td>
+          <ul>
+            {% for reading in session.readings %}
+              <li><a href="{{ reading.link }}">{{ reading.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </td>
+        <td>{{ session.notes }}</td>
       </tr>
     {% endfor %}
   {% endfor %}
