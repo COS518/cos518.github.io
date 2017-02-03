@@ -8,6 +8,7 @@
         - name: Worse is Better is Worse
           link: https://www.dreamsongs.com/Files/worse-is-worse.pdf
       notes:
+        - L1-introduction
       type: lecture
     - date: February 8
       topic: Naming
@@ -16,7 +17,7 @@
           link: http://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf
         - name: Zooko's Triangle
           link: https://web.archive.org/web/20011020191610/http://zooko.com/distnames.html
-      notes:
+      notes: nil
       type: lecture
 
 - unit: Storage
@@ -25,64 +26,64 @@
       topic: Weaker consistency
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: lecture
     - date: February 15
       topic: Stronger consistency
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: lecture
     - date: February 20
       topic: Consensus
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: lecture
     - date: February 22
       topic: Transactions
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: lecture
     - date: February 27
       topic: K-V stores
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: lecture
     - date: March 1
       topic: Column stores
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: lecture
     - date: March 6
       topic: Flash
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: lecture
     - date: March 8
       topic: Caching
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: lecture
     - date: March 13
       topic: Intermediate project presentations
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: presentations
 
 - unit: Big Data
@@ -91,57 +92,57 @@
       topic: Batch processing
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: lecture
     - date: March 20
       topic: Spring Break
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: noclass
     - date: March 22
       topic: Spring Break
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: noclass
     - date: March 27
       topic: Stream processing
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: lecture
     - date: March 29
       topic: Graph processing
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: lecture
     - date: April 3
       topic: Machine Learning
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: lecture
     - date: April 5
       topic: Geo-distributed computation
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: lecture
     - date: April 10
       topic: Scheduler
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: lecture
 
 - unit: Applications
@@ -150,48 +151,48 @@
       topic: Pub/sub
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: lecture
     - date: April 17
       topic: Distributed hash tables
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: lecture
     - date: April 19
       topic: Content delivery
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: lecture
     - date: April 24
       topic: Blockchain
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: lecture
     - date: April 26
       topic: Security
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: lecture
     - date: May 1
       topic: Privacy
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: lecture
     - date: May 3
       topic: Final project presentations
       readings:
         - name: TBD
-          link: 
-      notes:
+          link:
+      notes: nil
       type: presentations

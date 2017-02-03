@@ -25,7 +25,15 @@
             {% endfor %}
           </ul>
         </td>
-        <td>{{ session.notes }}</td>
+        <td> {% if session.notes != nil %}
+          <ul>
+            {% for note in session.notes %}
+              <li>
+                []
+              </li>
+            {% endfor %}
+          </ul>
+        </td> {% endif %}
       </tr>
     {% endfor %}
   {% endfor %}
