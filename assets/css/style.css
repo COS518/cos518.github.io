@@ -236,10 +236,10 @@ table.schedule tr.recitation { background: #ccf; }
 table.schedule tr.recitation.alt { background: #ccf; }
 table.schedule tr.lechead { background: #FFAA4D; font-weight: bold; text-align: center; }
 
-table.schedule tr th.date { width: 10%; }
-table.schedule tr th.topics { width: 25%; }
+table.schedule tr th.date { width: 5%;}
+table.schedule tr th.topics { width: 15%; }
 table.schedule tr th.notes { width: 20%; }
-table.schedule tr th.readings { width: 35%; }
+table.schedule tr th.readings { width: 25%; }
 table.schedule tr th.presenter { width: 10%; }
 
 table.schedule li { padding: 0px; }

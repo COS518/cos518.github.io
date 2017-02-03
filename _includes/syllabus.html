@@ -17,7 +17,13 @@
         <tr class='{{ session.type }}'>
       {% endif %}
         <td>{{ session.date }}</td>
-        <td>{{ session.topic }}</td>
+        <td>
+          {{ session.topic }}
+          {% if session.slides %}
+            [<a href='/docs/{{ session.slides }}.pdf'>pdf</a>]
+            [<a href='/docs/{{ session.slides }}.pptx'>pptx</a>]
+          {% endif %}
+        </td>
         <td>
           <ul>
             {% for reading in session.readings %}
@@ -25,15 +31,7 @@
             {% endfor %}
           </ul>
         </td>
-        <td> {% if session.notes != nil %}
-          <ul>
-            {% for note in session.notes %}
-              <li>
-                []
-              </li>
-            {% endfor %}
-          </ul>
-        </td> {% endif %}
+        <td> {{ session.notes }} </td>
       </tr>
     {% endfor %}
   {% endfor %}
