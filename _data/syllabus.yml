@@ -240,6 +240,8 @@
       signups:
         - name: Experiences with CoralCDN&#58; A Five-Year Operational View
           link: https://www.coralcdn.org/docs/coral-nsdi10.pdf
+        - name: BitTorrent
+          link: http://web.cs.ucla.edu/classes/cs217/05BitTorrent.pdf
       type: lecture
     - date: M 04/24
       topic: Blockchain
@@ -247,6 +249,10 @@
         - name: Bitcoin&#58; A Peer-to-Peer Electronic Cash System
           link: https://bitcoin.org/bitcoin.pdf
       signups:
+        - name: Blockstack&#58; A Gloal Naming and Storage System Secured by Blockchains
+          link: http://www.cs.princeton.edu/~mfreed/docs/blockstack-atc16.pdf
+        - name: Ethereum&#58; A Next-Generation Smart Contract and Decentralized Application Platform
+          link: https://github.com/ethereum/wiki/wiki/White-Paper
       type: lecture
     - date: W 04/26
       topic: Security
@@ -254,6 +260,12 @@
         - name: TBD
           link:
       signups:
+          - name: Secure Untrusted Data Repository (SUNDR)
+            link: https://www.usenix.org/legacy/event/osdi04/tech/full_papers/li_j/li_j.pdf
+          - name: CryptDB&#58; Protecting Confidentiality with Encrypted Query Processing
+            link: https://people.csail.mit.edu/nickolai/papers/popa-cryptdb.pdf
+          - name: SPORC&#58; Group Collaboration using Untrusted Cloud Resources
+            link: https://www.usenix.org/legacy/event/osdi10/tech/full_papers/Feldman.pdf
       type: lecture
     - date: M 05/01
       topic: Privacy
@@ -261,6 +273,10 @@
         - name: TBD
           link:
       signups:
+        - name: Tor&#58; The Second-Generation Onion Router
+          link: https://svn.torproject.org/svn/projects/design-paper/tor-design.pdf
+        - name: Freenet&#58; A Distributed Anonymous Information Storage and Retrieval System
+          link: http://homepage.divms.uiowa.edu/~ghosh/freenet.pdf
       type: lecture
     - date: W 05/03
       topic: Final project presentations
