@@ -2,8 +2,8 @@
   <tr>
     <th class='date'>Date</th>
     <th class='topics'>Topics</th>
-    <th class='readings'>Readings</th>
-    <th class='notes'>Notes</th>
+    <th class='readings'>Readings (everyone)</th>
+    <th class='notes'>Readings (sign-up)</th>
   </tr>
 
   {% for unit in site.data.syllabus %}
@@ -25,13 +25,26 @@
           {% endif %}
         </td>
         <td>
-          <ul>
-            {% for reading in session.readings %}
-              <li><a href='{{ reading.link }}'>{{ reading.name }}</a></li>
-            {% endfor %}
-          </ul>
+          {% if session.readings %}
+            <ul>
+              {% for reading in session.readings %}
+                <li><a href='{{ reading.link }}'>{{ reading.name }}</a></li>
+              {% endfor %}
+            </ul>
+          {% endif %}
         </td>
-        <td> {{ session.notes }} </td>
+        <td>
+          {% if session.signups %}
+            <ul>
+              {% for signup in session.signups %}
+                <li><a href='{{ signup.link }}'>{{ signup.name }}</a></li>
+                {% if signup.student %}
+                  ({{ signup.student }})
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </td>
       </tr>
     {% endfor %}
   {% endfor %}

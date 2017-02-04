@@ -8,7 +8,6 @@
           link: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/acrobat-17.pdf
         - name: Worse is Better is Worse
           link: https://www.dreamsongs.com/Files/worse-is-worse.pdf
-      notes:
       type: lecture
     - date: W 02/08
       topic: Naming
@@ -17,7 +16,6 @@
           link: http://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf
         - name: Zooko's Triangle
           link: https://web.archive.org/web/20011020191610/http://zooko.com/distnames.html
-      notes:
       type: lecture
 
 - unit: Storage
@@ -25,65 +23,105 @@
     - date: M 02/13
       topic: Weaker consistency
       readings:
-        - name: TBD
-          link:
-      notes:
+        - name: Managing Update Conflicts in Bayou, a Weakly Connected Replicated Storage System
+          link: https://people.eecs.berkeley.edu/~brewer/cs262b/update-conflicts.pdf
+        - name: Operational transformations
+          link: https://en.wikipedia.org/wiki/Operational_transformation
+      signups:
+        - name: Dynamo&#58; Amazon's Highly Available Key-value store
+          link: http://cs.ucsb.edu/~ravenben/classes/276/papers/dynamo-sosp07.pdf
+        - name: PNUTS&#58; Yahoo!'s Hosted Data Serving Platform
+          link: http://www.cs.ucsb.edu/~agrawal/fall2009/PNUTS.pdf
+        - name: Bolt-on Causal Consistency
+          link: http://www.bailis.org/papers/bolton-sigmod2013.pdf
       type: lecture
     - date: W 02/15
       topic: Stronger consistency
-      readings:
-        - name: TBD
-          link:
-      notes:
+      signups:
+        - name: Object Storage on CRAQ
+          link: https://www.usenix.org/legacy/event/usenix09/tech/full_papers/terrace/terrace.pdf
+        - name: Making Geo-Replicated Systems Fast as Possible, Consistent When Necessary
+          link: http://www.cs.otago.ac.nz/cosc440/readings/osdi12-final-162.pdf
       type: lecture
     - date: M 02/20
       topic: Consensus
       readings:
-        - name: TBD
-          link:
-      notes:
+        - name: In Search of an Understandable Consensus Algorithm (Raft)
+          link: https://raft.github.io/raft.pdf
+      signups:
+        - name: The Chubby lock service for loosely-coupled distributed systems
+          link: https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf
+        - name: Viewstamped Replication Revisited
+          link: http://pmg.csail.mit.edu/papers/vr-revisited.pdf
+        - name: Mencius&#58; Building Efficient Replicated State Machines for WANs
+          link: https://www.usenix.org/legacy/event/osdi08/tech/full_papers/mao/mao_html/
+        - name: There Is More Consensus in Egalitarian Parliaments
+          link: https://www.cs.cmu.edu/~dga/papers/epaxos-sosp2013.pdf
       type: lecture
     - date: W 02/22
       topic: Transactions
       readings:
-        - name: TBD
-          link:
-      notes:
+        - name: Spanner&#58; Google's Globally-Distributed Database
+          link: https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf
+      signups:
+        - name: Calvin&#58; Fast Distributed Transactions for Partitioned Database Systems
+          link: http://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf
+        - name: Extracting More Concurrency from Distributed Transactions (ROCOCO)
+          link: https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-mu.pdf
+        - name: Scalable Atomic Visibility with RAMP Transactions
+          link: http://www.bailis.org/papers/ramp-sigmod2014.pdf
       type: lecture
     - date: M 02/27
       topic: K-V stores
       readings:
-        - name: TBD
-          link:
-      notes:
+        - name: LevelDB
+          link: https://en.wikipedia.org/wiki/LevelDB
+      signups:
+        - name: SILT&#58; A Memory-Efficient, High-Performance Key-Value Store
+          link: https://www.cs.cmu.edu/~dga/papers/silt-sosp2011.pdf
+        - name: MICA&#58; A Holistic Approach to Fast In-Memory Key-Value Storage
+          link: https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-lim.pdf
+        - name: Cache Craftiness for Fast Multicore Key-Value Storage (Masstree)
+          link: https://pdos.csail.mit.edu/papers/masstree:eurosys12.pdf
       type: lecture
     - date: W 03/01
       topic: Column stores
-      readings:
-        - name: TBD
-          link:
-      notes:
+      signups:
+        - name: Bigtable&#58; A Distributed Storage System for Structured Data
+          link: https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf
+        - name: C-Store&#58; A Column-oriented DBMS
+          link: https://pdfs.semanticscholar.org/3b33/67f8f0d4692abe6c111a14bb702f30ab20a3.pdf
+        - name: HyperDex&#58; A Distributed, Searchable Key-Value Store
+          link: http://www.cs.princeton.edu/courses/archive/fall13/cos518/papers/hyperdex.pdf
       type: lecture
     - date: M 03/06
       topic: Flash
-      readings:
-        - name: TBD
-          link:
-      notes:
+      signups:
+        - name: SSDAlloc&#58; Hybrid SSD/RAM Memory Management Made Easy
+          link: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/Badam.pdf
+        - name: RIPQ&#58; Advanced Photo Caching on Flash for Facebook
+          link: https://www.cs.cornell.edu/projects/quicksilver/public_pdfs/ripq.pdf
+        - name: From application requests to Virtual IOPs&#58; Provisioned key-value storage with Libra
+          link: http://sns.cs.princeton.edu/docs/libra-eurosys14.pdf
+        - name: CORFU&#58; A Shared Log Design for Flash Clusters
+          link: http://www.cs.yale.edu/homes/mahesh/papers/corfumain-final.pdf
       type: lecture
     - date: W 03/08
       topic: Caching
-      readings:
-        - name: TBD
-          link:
-      notes:
+      signups:
+        - name: TAO&#58; Facebook's Distributed Data Store for the Social Graph
+          link: https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf
+        - name: Scaling Memcache at Facebook
+          link: https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf
+        - name: EC-Cache&#58; Load-alanced, Low-Latency Cluster Caching with Online Erasure Coding
+          link: https://www.usenix.org/system/files/conference/osdi16/osdi16-rashmi.pdf
+        - name: HashCache&#58; Cache Storage for the Next Billion
+          link: https://www.usenix.org/legacy/event/nsdi09/tech/full_papers/badam/badam.pdf
+        - name: The Case for RAMClouds&#58; Scalable High-Performance Storage Entirely in DRAM
+          link: http://web.stanford.edu/~ouster/cgi-bin/papers/ramcloud.pdf
       type: lecture
     - date: M 03/13
       topic: Intermediate project presentations
-      readings:
-        - name: TBD
-          link:
-      notes:
       type: presentations
 
 - unit: Big Data
@@ -91,58 +129,83 @@
     - date: W 03/15
       topic: Batch processing
       readings:
-        - name: TBD
-          link:
-      notes:
+        - name: MapReduce &#58; Simplified Data Processing on Large Clusters
+          link: https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
+      signups:
+        - name: Resilient Distriuted Datasets&#58; A Fault-Tolerant Abstraction for In-Memory Cluster Computing
+          link: https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf
+        - name: Dryad&#58; Distributed Data-Parallel Programs from Sequential Building Blocks
+          link: https://www.microsoft.com/en-us/research/wp-content/uploads/2007/03/eurosys07.pdf
+        - name: MapReduce Online
+          link: https://www.usenix.org/legacy/event/nsdi10/tech/full_papers/condie.pdf
+        - name: Piccolo&#58; Building Fast, Distributed Programs with Partitioned Tables
+          link: https://www.usenix.org/legacy/event/osdi10/tech/full_papers/Power.pdf
       type: lecture
     - date: M 03/20
       topic: Spring Break
-      readings:
-        - name: TBD
-          link:
-      notes:
       type: noclass
     - date: W 03/22
       topic: Spring Break
-      readings:
-        - name: TBD
-          link:
-      notes:
       type: noclass
     - date: M 03/27
       topic: Stream processing
       readings:
-        - name: TBD
-          link:
-      notes:
+        - name: The Aurora and Borealis Stream Processing Engines
+          link: http://homes.cs.washington.edu/~magda/borealis-book.pdf
+      signups:
+        - name: Discretized Streams&#58; Fault-Tolerant Streaming Computation at Scale (Spark Streaming)
+          link: https://people.csail.mit.edu/matei/papers/2013/sosp_spark_streaming.pdf
+        - name: MillWheel&#58; Fault-Tolerant Stream Processing at Internet Scale
+          link: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41378.pdf
+        - name: The Dataflow Model&#58; A Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale, Unbounded, Out-of-Order Data Processing
+          link: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43864.pdf
       type: lecture
     - date: W 03/29
       topic: Graph processing
-      readings:
-        - name: TBD
-          link:
-      notes:
+      signups:
+        - name: GraphLab&#58; A New Framework For Parallel Machine Learning
+          link: http://event.cwi.nl/uai2010/papers/UAI2010_0171.pdf
+        - name: Distributed GraphLab&#58; A Framework for Machine Learning and Data Mining in the Cloud
+          link: http://vldb.org/pvldb/vol5/p716_yuchenglow_vldb2012.pdf
+        - name: Pregel&#58; A System for Large-Scale Graph Processing
+          link: https://kowshik.github.io/JPregel/pregel_paper.pdf
+        - name: One Trillion Edges&#58; Graph Processing at Facebook-Scale
+          link: http://www.vldb.org/pvldb/vol8/p1804-ching.pdf
       type: lecture
     - date: M 04/03
       topic: Machine Learning
-      readings:
-        - name: TBD
-          link:
-      notes:
+      signups:
+        - name: TensorFlow&#58; Large-Scale Machine Learning on Heterogeneous Distributed Systems
+          link: http://download.tensorflow.org/paper/whitepaper2015.pdf
+        - name: Scaling Distributed Machine Learning with the Parameter Server
+          link: https://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf
+        - name: Petuum&#58; A New Platform for Distributed Machine Learning on Big Data
+          link: http://www.cs.cmu.edu/~./seunghak/petuum_kdd15.pdf
+        - name: MLbase&#58; A Distributed Machine-learning System
+          link: http://cidrdb.org/cidr2013/Papers/CIDR13_Paper118.pdf
       type: lecture
     - date: W 04/05
       topic: Geo-distributed computation
-      readings:
-        - name: TBD
-          link:
-      notes:
+      signups:
+        - name: Aggregation and Degradation in JetStream&#58; Streaming Analytics in the Wide Area
+          link: https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-rabkin.pdf
+        - name: Low Latency Analytics of Geo-distributed Data in the Wide Area
+          link: http://research.microsoft.com/en-us/um/people/ga/gda.pdf
+        - name: CLARINET&#58; WAN-Aware Optimization for Analytics Queries
+          link: http://pages.cs.wisc.edu/~akella/papers/clarinet.pdf
       type: lecture
     - date: M 04/10
       topic: Scheduler
       readings:
-        - name: TBD
-          link:
-      notes:
+        - name: Dominant Resource Fairness&#58; Fair Allocation of Multiple Resource Types
+          link: https://people.eecs.berkeley.edu/~alig/papers/drf.pdf
+      signups:
+        - name: Mesos&#58; A Platform for Fine-Grained Resource Sharing in the Data Center
+          link: https://people.eecs.berkeley.edu/~alig/papers/mesos.pdf
+        - name: Efficient Coflow Scheduling with Varys
+          link: http://www.mosharaf.com/wp-content/uploads/varys-sigcomm14.pdf
+        - name: Sparrow&#58; Distributed, Low Latency Scheduling
+          link: https://cs.stanford.edu/~matei/papers/2013/sosp_sparrow.pdf
       type: lecture
 
 - unit: Applications
@@ -150,49 +213,59 @@
     - date: W 04/12
       topic: Pub/sub
       readings:
-        - name: TBD
-          link:
-      notes:
+        - name: Kafka&#58; a Distributed Messaging System for Log Processing
+          link: http://research.microsoft.com/en-us/um/people/srikanth/netdb11/netdb11papers/netdb11-final12.pdf
+      signups:
+        - name: Wormhole&#58; Reliable Pub-Sub to Support Geo-replicated Internet Services
+          link: https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-sharma.pdf
+        - name: A DHT-based Infrastructure for Content-based Publish/Subscribe Services
+          link: /papers/dht-pub-sub.pdf
       type: lecture
     - date: M 04/17
       topic: Distributed hash tables
       readings:
-        - name: TBD
-          link:
-      notes:
+        - name: Chord&#58; A Scalable Peer-to-peer Lookup Service for Internet Applications
+          link: https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf
+      signups:
+        - name: Kademlia&#58; A Peer-to-peer Information System Based on the XOR Metric
+          link: https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf
+        - name: Beehive&#58; O(1) Lookup Performance for Power-Law Query Distributions in Peer-to-Peer Overlays
+          link: http://www.cs.cornell.edu/People/egs/beehive/beehive-nsdi04/
       type: lecture
     - date: W 04/19
       topic: Content delivery
       readings:
         - name: TBD
           link:
-      notes:
+      signups:
+        - name: Experiences with CoralCDN&#58; A Five-Year Operational View
+          link: https://www.coralcdn.org/docs/coral-nsdi10.pdf
       type: lecture
     - date: M 04/24
       topic: Blockchain
       readings:
-        - name: TBD
-          link:
-      notes:
+        - name: Bitcoin&#58; A Peer-to-Peer Electronic Cash System
+          link: https://bitcoin.org/bitcoin.pdf
+      signups:
       type: lecture
     - date: W 04/26
       topic: Security
       readings:
         - name: TBD
           link:
-      notes:
+      signups:
       type: lecture
     - date: M 05/01
       topic: Privacy
       readings:
         - name: TBD
           link:
-      notes:
+      signups:
       type: lecture
     - date: W 05/03
       topic: Final project presentations
       readings:
         - name: TBD
           link:
-      notes:
+      signups:
       type: presentations
