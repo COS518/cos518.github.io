@@ -4,7 +4,15 @@ layout: home
 
 ## Overview
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis finibus leo. Curabitur quam nisi, faucibus ut pulvinar sed, venenatis non urna. Duis cursus gravida tincidunt. Pellentesque sodales nibh eu malesuada dignissim. Cras nec metus ultrices nisl vulputate vehicula. Curabitur pellentesque dolor vitae faucibus lobortis. Mauris vel ante in metus congue accumsan. Nulla eu est convallis, lobortis leo nec, vestibulum libero. Etiam dictum mollis lacus, et accumsan ipsum lobortis sit amet. Donec lobortis felis ut erat accumsan, ac dignissim mi tincidunt.
+COS-518 is a graduate course in computer systems. Its goals are:
+
+- To understand the core concepts of computer systems, with a focus on distributed systems.
+- To understand the state of the art in storage systems, big data processing systems, and distributed applications.
+- To understand how to engage in systems research and development.
+
+This course particularly focuses on the reading and study of recent research papers.  It will also include introductory lectures to related topics, as well as a semester-long implementation-heavy group project.  COS-518 assumes a basic familiarity with computer systems and networking concepts.  Students are expected to read papers before the class, and participate in the discussion during the class.
+
+As part of the graduate curriculum, successful completion of the course will satisfy the count towards fulfilling both the programming requirement and a breadth course requirement in the Computer Systems areas.
 
 ## Information
 - **Lecture**
@@ -13,9 +21,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis finibus 
   - Room: Friend Center 003
 - **Instructors**
   - Professor: [Michael Freedman](http://www.cs.princeton.edu/~mfreed/)
-  - Preceptor: [Daniel Suo](http://www.cs.princeton.edu/~dsuo)
+  - Teaching Assistant: [Daniel Suo](http://www.cs.princeton.edu/~dsuo)
 - **Grading**
   - Paper presentation
   - Course project (Proposal, presentation, write-up, code)
-  - Piazza participation
-  - In-class Q&A
+  - Participation
+  - In-class "Q&A"
