@@ -32,15 +32,13 @@ for project selection is aggressive.
 
 - Team selection (2/10)
 
-- Project proposal (2/24): via private question on Piazza
+- Project proposal (2/24)
 
-- Project selection (3/3):  Project topic finalized
+- Project selection (3/3):  Project topic/proposal finalized
 
-- Initial course presentation (3/13)
+- Project presentation (near Dean's Date)
 
-- Class presentation (TBD, either 5/3 or closer to Dean's Date)
-
-- Final report (TBD, near Dean's Date of 5/16)
+- Final report (Dean's Date of 5/16)
 
 ## Assignments
 
@@ -115,11 +113,7 @@ The project proposal from above will be finalized.  This may involve
 one or more back-and-forth between instructors and group (likely via
 Piazza).
 
-### Initial class presentation
-
-More information forthcoming.
-
-### Class presentation
+### Presentation
 
 More information forthcoming.
 
