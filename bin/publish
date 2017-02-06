@@ -9,6 +9,7 @@ PUBDIR=/n/fs/csweb/courses/archive/spr17/cos518
 
 publish() {
   # Yeah, this is aggressive, but whatever
+  git pull
   git add .
 
   # Commit and push
