@@ -23,7 +23,7 @@ As part of the graduate curriculum, successful completion of the course will sat
   - Professor: [Michael Freedman](http://www.cs.princeton.edu/~mfreed/)
   - Teaching Assistant: [Daniel Suo](http://www.cs.princeton.edu/~dsuo)
 - **Grading**
-  - Paper presentation
-  - Course project (Proposal, presentation, write-up, code)
-  - Participation
-  - In-class "Q&A"
+  - 20% Paper presentation
+  - 50% Course project (Proposal, presentation, write-up, code)
+  - 10% Participation
+  - 20% In-class "Q&A"
