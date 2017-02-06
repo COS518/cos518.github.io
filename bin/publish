@@ -17,6 +17,9 @@ publish() {
 
   jekyll build
 
+  echo -n Password:
+  read -s RSYNC_PASSWORD
+
   # Sync to cycles
   rsync \
     -rltvO \
@@ -34,7 +37,7 @@ publish() {
     _site/* \
     $USER@$HOST:$PUBDIR
 
-  ssh $USER@$HOST "find $PUBDIR ! -path $PUBDIR | xargs chgrp -R cos518"
+  ./bin/ssh $USER $HOST $PUBDIR $RSYNC_PASSWORD
 }
 
 while getopts "m:" opt; do

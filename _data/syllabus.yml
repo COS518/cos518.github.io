@@ -5,17 +5,17 @@
       slides: L1-intro
       readings:
         - name: Hints for Computer System Design
-          link: /papers/hints.pdf
+          link: papers/hints.pdf
         - name: Worse is Better is Worse
-          link: /papers/worse-is-worse.pdf
+          link: papers/worse-is-worse.pdf
       type: lecture
     - date: W 02/08
       topic: Naming
       readings:
         - name: End-to-End Arguments in System Design
-          link: /papers/end-to-end.pdf
+          link: papers/end-to-end.pdf
         - name: Zooko's Triangle
-          link: /papers/zooko-triangle.pdf
+          link: papers/zooko-triangle.pdf
       type: lecture
     - date: F 02/10
       topic: Team selections due
@@ -237,7 +237,7 @@
         - name: Wormhole&#58; Reliable Pub-Sub to Support Geo-replicated Internet Services
           link: https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-sharma.pdf
         - name: A DHT-based Infrastructure for Content-based Publish/Subscribe Services
-          link: /papers/dht-pub-sub.pdf
+          link: papers/dht-pub-sub.pdf
       type: lecture
     - date: M 04/17
       topic: Distributed hash tables
