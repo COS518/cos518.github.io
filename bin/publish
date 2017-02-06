@@ -29,7 +29,7 @@ publish() {
     --exclude '.git*' \
     --copy-links \
     _site/* \
-    $(USER)@cycles.cs.princeton.edu:/n/fs/csweb/courses/archive/spr17/cos518
+    $USER@cycles.cs.princeton.edu:/n/fs/csweb/courses/archive/spr17/cos518
 }
 
 while getopts "m:" opt; do
