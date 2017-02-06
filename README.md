@@ -11,5 +11,6 @@ This will add all untracked files (```git add .```) and tracked changes (```git 
 ## TODO
 - Decide on 3/13, 5/03 lectures
 - Have students sign up for papers
+- Format of how to give presentation
 - Determine group sizes
 - Where / how to publish final project repots
