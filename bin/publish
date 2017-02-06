@@ -31,6 +31,8 @@ publish() {
     --exclude .gitignore \
     --exclude '*~' \
     --exclude '.git*' \
+    --exclude bin \
+    --exclude staging \
     --copy-links \
     _site/* \
     $USER@$HOST:$PUBDIR
