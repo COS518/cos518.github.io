@@ -4,6 +4,9 @@ usage() {
   echo "Usage: $0 [-m COMMIT_MESSAGE]" 1>&2; exit 1;
 }
 
+HOST=cycles.cs.princeton.edu
+PUBDIR=/n/fs/csweb/courses/archive/spr17/cos518
+
 publish() {
   # Yeah, this is aggressive, but whatever
   git add .
@@ -29,7 +32,9 @@ publish() {
     --exclude '.git*' \
     --copy-links \
     _site/* \
-    $USER@cycles.cs.princeton.edu:/n/fs/csweb/courses/archive/spr17/cos518
+    $USER@$HOST:$PUBDIR
+
+  ssh $USER@$HOST "find $PUBDIR ! -path $PUBDIR | xargs chgrp -R cos518"
 }
 
 while getopts "m:" opt; do
