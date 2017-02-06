@@ -4,21 +4,21 @@ layout: base
 
 ## Overview
 
-The semester-long project in COS-518 is an systems building
+The semester-long project in COS518 is an systems-building
 project.  Projects should be done in groups (either of size two or
 three, *to be determined* by the instructor after the course size
 finalized) and must involve significant system programming. All group
 students are expected to share equally in the implementation.
 
 There is a significant departure this year in the scope of the project
-compared to previous versions of COS 518.  In particular, we expect
+compared to previous versions of COS518.  In particular, we expect
 most students to satisfy the group project by **reimplementing and
 reproducing** the results from a paper we read during the semester or
 on a like topic.
 
 As in previous years, students are also able to satisfy the project by
-performing a novel research projects, but such a project must be
-closely related to the material and topics taught in the COS-518
+performing novel research projects, but such projects must be
+closely related to the material and topics taught in the COS518
 curricula.  The instructors will take a ***narrow*** view as to what
 projects satisfy this criteria (e.g., your ongoing research on
 self-driving cars or software-defined networks will likely not be
@@ -29,16 +29,12 @@ to speak to instructors as soon as possible, as the initial timeline
 for project selection is aggressive.
 
 ## Timeline
-
 - Team selection (2/10)
-
 - Project proposal (2/24)
-
 - Project selection (3/3):  Project topic/proposal finalized
-
 - Project presentation (near Dean's Date)
-
 - Final report (Dean's Date of 5/16)
+<br><br>
 
 ## Assignments
 
@@ -55,15 +51,11 @@ the instructors with a few paragraphs that include the following
 information.  Please tag these proposals as #proposal #reproduction.
 
 - Background
-
    - Name of paper
-
    - Brief summary of paper's problem domain / challenge, goals, and technical approach
-
    - Summary of paper's current implementation, evaluation strategy, and key results
 
 - Plan:
-
    - Proposed implementation (language, framework, etc.)
    - Evaluation strategy (testing platform/setup, simulated data/traces, etc.)
    - Key results trying to reproduce
@@ -85,7 +77,6 @@ instructors with a few paragraphs that include the following
 information.  Please tag these proposals as #proposal #novel.
 
 - Background
-
    - What problem is research attempting to solve?
    - Why is the problem important?
    - How does this relate directly to topics or papers covered in class
@@ -95,7 +86,6 @@ information.  Please tag these proposals as #proposal #novel.
    - What is your (novel) technical insight/approach to solving this problem
 
 - Plan
-
    - Proposed implementation (language, framework, etc.)
    - Key questions that evaluation will address
    - Evaluation strategy (testing platform/setup, simulated data/traces, etc.)

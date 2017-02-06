@@ -4,7 +4,7 @@ course_year: 2017
 course_term: Spring
 directory:
   - name: 'home'
-    path: '/'
+    path: 'index.html'
   - syllabus
   - projects
   - name: 'piazza'

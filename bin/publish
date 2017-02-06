@@ -1,0 +1,55 @@
+#!/usr/bin/env bash
+
+usage() {
+  echo "Usage: $0 [-m COMMIT_MESSAGE]" 1>&2; exit 1;
+}
+
+HOST=cycles.cs.princeton.edu
+PUBDIR=/n/fs/csweb/courses/archive/spr17/cos518
+
+publish() {
+  # Yeah, this is aggressive, but whatever
+  git add .
+
+  # Commit and push
+  git commit -am "$1"
+  git push
+
+  jekyll build
+
+  # Sync to cycles
+  rsync \
+    -rltvO \
+    --perms \
+  	--delete \
+    --protocol=26 \
+    --chmod=ug+rw,a+r,o-w \
+    --exclude Makefile \
+    --exclude '.*.swp' \
+    --exclude .DS_Store \
+    --exclude .gitignore \
+    --exclude '*~' \
+    --exclude '.git*' \
+    --copy-links \
+    _site/* \
+    $USER@$HOST:$PUBDIR
+
+  ssh $USER@$HOST "find $PUBDIR ! -path $PUBDIR | xargs chgrp -R cos518"
+}
+
+while getopts "m:" opt; do
+  case $opt in
+    m)
+      m=$OPTARG
+      publish "$m"
+      ;;
+    *)
+      usage
+      ;;
+  esac
+done
+
+shift $((OPTIND-1))
+if [ -z "$m" ]; then
+    usage
+fi

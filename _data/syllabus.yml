@@ -5,18 +5,24 @@
       slides: L1-intro
       readings:
         - name: Hints for Computer System Design
-          link: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/acrobat-17.pdf
+          link: papers/hints.pdf
         - name: Worse is Better is Worse
-          link: https://www.dreamsongs.com/Files/worse-is-worse.pdf
+          link: papers/worse-is-worse.pdf
       type: lecture
     - date: W 02/08
       topic: Naming
       readings:
         - name: End-to-End Arguments in System Design
-          link: http://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf
+          link: papers/end-to-end.pdf
         - name: Zooko's Triangle
-          link: https://web.archive.org/web/20011020191610/http://zooko.com/distnames.html
+          link: papers/zooko-triangle.pdf
       type: lecture
+    - date: F 02/10
+      topic: Team selections due
+      readings:
+        - name: Email cos518-staff@lists.cs.princeton.edu
+          link: mailto&#58;cos518-staff@lists.cs.princeton.edu
+      type: exam
 
 - unit: Storage
   sessions:
@@ -71,6 +77,12 @@
         - name: Scalable Atomic Visibility with RAMP Transactions
           link: http://www.bailis.org/papers/ramp-sigmod2014.pdf
       type: lecture
+    - date: F 02/24
+      topic: Project proposals due
+      readings:
+        - name: Private piazza post
+          link: https://piazza.com/class/iykmzbdqtzs452
+      type: exam
     - date: M 02/27
       topic: K-V stores
       readings:
@@ -94,6 +106,12 @@
         - name: HyperDex&#58; A Distributed, Searchable Key-Value Store
           link: http://www.cs.princeton.edu/courses/archive/fall13/cos518/papers/hyperdex.pdf
       type: lecture
+    - date: F 03/03
+      topic: Finalize project proposal
+      readings:
+        - name: Private piazza post
+          link: https://piazza.com/class/iykmzbdqtzs452
+      type: exam
     - date: M 03/06
       topic: Flash
       signups:
@@ -121,8 +139,8 @@
           link: http://web.stanford.edu/~ouster/cgi-bin/papers/ramcloud.pdf
       type: lecture
     - date: M 03/13
-      topic: Intermediate project presentations
-      type: presentations
+      topic: TBD
+      type: lecture
 
 - unit: Big Data
   sessions:
@@ -219,7 +237,7 @@
         - name: Wormhole&#58; Reliable Pub-Sub to Support Geo-replicated Internet Services
           link: https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-sharma.pdf
         - name: A DHT-based Infrastructure for Content-based Publish/Subscribe Services
-          link: /papers/dht-pub-sub.pdf
+          link: papers/dht-pub-sub.pdf
       type: lecture
     - date: M 04/17
       topic: Distributed hash tables
@@ -234,9 +252,6 @@
       type: lecture
     - date: W 04/19
       topic: Content delivery
-      readings:
-        - name: TBD
-          link:
       signups:
         - name: Experiences with CoralCDN&#58; A Five-Year Operational View
           link: https://www.coralcdn.org/docs/coral-nsdi10.pdf
@@ -256,9 +271,6 @@
       type: lecture
     - date: W 04/26
       topic: Security
-      readings:
-        - name: TBD
-          link:
       signups:
           - name: Secure Untrusted Data Repository (SUNDR)
             link: https://www.usenix.org/legacy/event/osdi04/tech/full_papers/li_j/li_j.pdf
@@ -269,9 +281,6 @@
       type: lecture
     - date: M 05/01
       topic: Privacy
-      readings:
-        - name: TBD
-          link:
       signups:
         - name: Tor&#58; The Second-Generation Onion Router
           link: https://svn.torproject.org/svn/projects/design-paper/tor-design.pdf
@@ -279,9 +288,12 @@
           link: http://homepage.divms.uiowa.edu/~ghosh/freenet.pdf
       type: lecture
     - date: W 05/03
-      topic: Final project presentations
-      readings:
-        - name: TBD
-          link:
+      topic: TBD
       signups:
-      type: presentations
+      type: lecture
+    - date: TBD
+      topic: Project presentation
+      type: exam
+    - date: Tu 05/16
+      topic: Final project report due
+      type: exam
