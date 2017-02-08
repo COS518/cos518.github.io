@@ -13,6 +13,7 @@
       type: lecture
     - date: W 02/08
       topic: Naming
+      slides: L2-naming-consistency
       readings:
         - name: End-to-End Arguments in System Design
           link: papers/end-to-end.pdf
