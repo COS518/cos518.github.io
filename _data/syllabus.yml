@@ -31,6 +31,7 @@
   sessions:
     - date: M 02/13
       topic: Weaker consistency
+      slides: L3-strong-consistency
       readings:
         - name: Managing Update Conflicts in Bayou, a Weakly Connected Replicated Storage System
           link: https://people.eecs.berkeley.edu/~brewer/cs262b/update-conflicts.pdf
