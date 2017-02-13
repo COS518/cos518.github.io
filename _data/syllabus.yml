@@ -140,10 +140,8 @@
           link: https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf
         - name: Scaling Memcache at Facebook
           link: https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf
-        - name: EC-Cache&#58; Load-alanced, Low-Latency Cluster Caching with Online Erasure Coding
+        - name: EC-Cache&#58; Load-balanced, Low-Latency Cluster Caching with Online Erasure Coding
           link: https://www.usenix.org/system/files/conference/osdi16/osdi16-rashmi.pdf
-        - name: HashCache&#58; Cache Storage for the Next Billion
-          link: https://www.usenix.org/legacy/event/nsdi09/tech/full_papers/badam/badam.pdf
         - name: The Case for RAMClouds&#58; Scalable High-Performance Storage Entirely in DRAM
           link: http://web.stanford.edu/~ouster/cgi-bin/papers/ramcloud.pdf
       type: lecture
