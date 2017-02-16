@@ -32,6 +32,7 @@ for project selection is aggressive.
 - Team selection (2/10)
 - Project proposal (2/24)
 - Project selection (3/3):  Project topic/proposal finalized
+- Interim project presentation (3/13)
 - Project presentation (near Dean's Date)
 - Final report (Dean's Date of 5/16)
 <br><br>

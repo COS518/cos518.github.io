@@ -1,14 +1,15 @@
 <table class='schedule'>
   <tr>
     <th class='date'>Date</th>
-    <th class='topics'>Topics</th>
+    <th class='topics'>Lecture topic</th>
+    <th class='topics'>Reading topic</th>
     <th class='readings'>Readings (everyone)</th>
     <th class='notes'>Readings (sign-up)</th>
   </tr>
 
   {% for unit in site.data.syllabus %}
     <tr class='lechead'>
-      <td class='lechead' colspan='4'>{{ unit.unit }}</td>
+      <td class='lechead' colspan='5'>{{ unit.unit }}</td>
     </tr>
     {% for session in unit.sessions %}
       {% if session.type == 'lecture' %}
@@ -18,12 +19,13 @@
       {% endif %}
         <td>{{ session.date }}</td>
         <td>
-          {{ session.topic }}
+          {{ session.lecture-topic }}
           {% if session.slides %}
             [<a href='docs/{{ session.slides }}.pdf'>pdf</a>]
             [<a href='docs/{{ session.slides }}.pptx'>pptx</a>]
           {% endif %}
         </td>
+        <td>{{ session.reading-topic }}</td>
         <td>
           {% if session.readings %}
             <ul>
