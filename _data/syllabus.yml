@@ -103,7 +103,7 @@
       reading-topic: K-V stores
       readings:
         - name: LevelDB
-          link: https://en.wikipedia.org/wiki/LevelDB
+          link: https://www.igvita.com/2012/02/06/sstable-and-log-structured-storage-leveldb/
       signups:
         - name: SILT&#58; A Memory-Efficient, High-Performance Key-Value Store
           link: https://www.cs.cmu.edu/~dga/papers/silt-sosp2011.pdf
