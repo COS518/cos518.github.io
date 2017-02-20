@@ -66,6 +66,7 @@
     - date: M 02/20
       lecture-topic: Transactions
       reading-topic: Consensus
+      slides: L5-transactions
       readings:
         - name: In Search of an Understandable Consensus Algorithm (Raft)
           link: https://raft.github.io/raft.pdf
@@ -80,7 +81,7 @@
           link: https://www.cs.cmu.edu/~dga/papers/epaxos-sosp2013.pdf
       type: lecture
     - date: W 02/22
-      lecture-topic: K-V stores
+      lecture-topic: Transactions 2
       reading-topic: Transactions
       readings:
         - name: Spanner&#58; Google's Globally-Distributed Database
