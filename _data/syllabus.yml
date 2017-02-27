@@ -103,6 +103,7 @@
     - date: M 02/27
       lecture-topic: Column stores
       reading-topic: K-V stores
+      slides: L7-db-stores
       readings:
         - name: LevelDB
           link: https://www.igvita.com/2012/02/06/sstable-and-log-structured-storage-leveldb/
