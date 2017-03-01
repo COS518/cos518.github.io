@@ -118,6 +118,7 @@
     - date: W 03/01
       lecture-topic: Flash
       reading-topic: Column stores
+      slides: L8-flash
       signups:
         - name: Bigtable&#58; A Distributed Storage System for Structured Data
           link: https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf
