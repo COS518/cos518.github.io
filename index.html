@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="An open-source time-series database optimized for fast ingest and complex queries."/>
+    <title>Timescale</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Timescale CSS -->
+    <link href="css/timescale.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Adobe Typekit for fontalones -->
+    <script src="https://use.typekit.net/pxj8vfu.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <!-- End Adobe Typekit -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+    <!-- Favicon -->
+
+    <!-- End Favicon -->
+
+  </head>
+  <body>
+
+    <!-- HERO -->
+
+    <div class="hero">
+    <!-- Fixed navbar -->
+        <div class="navbar navbar-default navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><img alt="Brand" src="img/timescale-wordmark-white.svg" width="200"></a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="./how-it-works.html"><h4 class="text-white">How it works</h4></a></li>
+                <li><a href="./about.html"><h4 class="text-white">About</h4></a></li>
+                <li><a href="#demoForm" data-toggle="modal"><h4 class="text-white">Contact</h4></a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </div>
+
+        <div class="container">
+            <div class="col-md-4 responsive-center">
+                <h2 class="text-light text-white headline">SQL made scalable for <span class="text-extra-bold text-white">time-series data</span>.
+                </h2>
+                <h4 class="text-light text-white subhead">An open-source time-series database optimized for fast ingest and complex queries. Fully compatible with Postgres.</h4>
+                <button class="btn-lg contact-btn text-extra-bold text-white" data-toggle="modal" data-target="#demoForm">Contact us</button>
+            </div>
+            <div class="col-md-7 col-md-offset-1 terminal">
+                  <div class="terminal-header-top">
+                      <div class="app-button"></div>
+                      <div class="app-button"></div>
+                      <div class="app-button"></div>
+                  </div>
+                  <pre class="terminal-content" id="terminal-typing">
+                  </pre>
+                  <div class="terminal__footer-links">
+                      <ul id="terminal-link-list">
+                          <li class="terminal__footer-title">Use Cases</li>
+                          <li class="terminal__link active">Dashboarding</li>
+                          <li class="terminal__link">Monitoring</li>
+                          <li class="terminal__link">Troubleshooting</li>
+                          <li class="terminal__link">Exploring</li>
+                      </ul>
+                  </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- SQL scaled -->
+
+    <div class="container scale-SQL">
+      <div class="col-md-7"><img src="img/illustration-scale.jpg" width="549" class="img-responsive center-block"></div>
+      <div class="col-md-5">
+        <div class="scale-SQL-copy">
+          <h2 class="text-light text-gray-title">How we <span class="text-extra-bold text-blue-link">scaled SQL</span></h2>
+          <h4 class="text-regular text-gray-body">Time-series workloads are different. TimescaleDB introduces special partitioning and distributed query optimizations to unlock new possibilities for SQL.</h4>
+          <a href="./how-it-works.html"><span class="arrow">Learn more</span></a>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <!-- Database traits -->
+
+    <div class="container database-traits">
+      <div class="row">
+        <div class="col-md-6 database-trait-item">
+            <div class="col-md-2"><img src="img/icon-ease.jpg" width="70" class="img-responsive database-icon"></div>
+            <div class="col-md-9"><h3 class="text-gray-title">Ease of use</h3><p class="text-gray-body">Query with standard SQL. Connect to tools that speak standard database connections. Your team and infra already knows how to use it.</p></div>
+        </div>
+        <div class="col-md-6 database-trait-item">
+            <div class="col-md-2"><img src="img/icon-query.jpg" width="73" class="img-responsive database-icon"></div>
+            <div class="col-md-9"><h3 class="text-gray-title">Fast queries</h3><p class="text-gray-body">TimescaleDB incorporates data and query optimizations so you can query more data, faster. Support for secondary indexes and rich query predicates.</p></div>
+        </div>
+      </div>
+      <div class="row database-row">
+        <div class="col-md-6 database-trait-item">
+            <div class="col-md-2"><img src="img/icon-ingest.jpg" width="67" class="img-responsive database-icon"></div>
+            <div class="col-md-9"><h3 class="text-gray-title">High ingest rates</h3><p class="text-gray-body">In a world where data is king, your business can’t afford bottlenecks. Our database allows you to take in more data, faster.</p></div>
+        </div>
+        <div class="col-md-6">
+            <div class="col-md-2"><img src="img/icon-time.jpg" width="70" class="img-responsive database-icon"></div>
+            <div class="col-md-9"><h3 class="text-gray-title">Real time</h3><p class="text-gray-body">Write and observe individual data records as soon as they’re available. Monitor and query live data. Don’t be limited by a database that requires large batch loads.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <!-- Key database features -->
+
+    <div class="container key-features">
+        <div class="col-md-4 key-features-title-section"><h3 class="text-regular text-gray-title">An open-source database for time-series data</h3><h3 class="text-regular">Scaling SQL for <span class="text-extra-bold text-blue-link">high ingest rates</span> and <span class="text-extra-bold text-blue-link">complex queries</span></h3></div>
+        <div class="col-md-4">
+          <ul class="text-gray-body key-features-column">
+            <li>Time-series data optimized</li>
+            <li>Full SQL interface</li>
+            <li>Scale-out distributed storage</li>
+            <li>Auto partitions across space and time</li>
+            <li>Single-node and cluster optimizations</li>
+            <li>Complex query predicates</li>
+            <li>Distributed aggregations</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="text-gray-body key-features-column">
+            <li>Native JOINs with relational data</li>
+            <li>Labels and metrics support</li>
+            <li>Geo-spatial query support</li>
+            <li>Fine-grained access control</li>
+            <li>Highly reliable (active replication, backups)</li>
+            <li>Automated data retention policies</li>
+            <li>On-premise and cloud offering</li>
+          </ul>
+        </div>
+    </div>
+
+    <!-- PostgreSQL -->
+
+    <div class="container-fluid postgresql">
+    <div class="container">
+        <div class="col-md-12">
+          <h2 class="text-light text-white postgresql-title">Engineered up from <span class="text-extra-bold">PostgreSQL</span></h2>
+        </div>
+        <div class="col-md-3 postgresql-feature">
+          <div class="postgresql-icon"><img src="img/icon-blue-rock.png" width="73" class="img-responsive "></div>
+          <h3 class="text-white">Rock-solid reliability</h3>
+          <p class="text-white">Trust in PostgreSQL’s 20-year open-source record and strong developer community</p>
+        </div>
+        <div class="col-md-3 postgresql-feature">
+          <div class="postgresql-icon"><img src="img/icon-blue-ecosystem.png" width="60" class="img-responsive"></div>
+          <h3 class="text-white">Mature ecosystem</h3>
+          <p class="text-white">Connect via standard ODBC, JDBC, or postgres for 3rd-party viz tools, BI tools, web platforms and ORMs</p>
+        </div>
+        <div class="col-md-3 postgresql-feature">
+          <div class="postgresql-icon"><img src="img/icon-blue-postgresql.png" width="60" class="img-responsive"></div>
+          <h3 class="text-white">Standard interface</h3>
+          <p class="text-white">Leverage your team’s existing comfort with SQL and Postgres</p>
+        </div>
+        <div class="col-md-3 postgresql-feature">
+          <div class="postgresql-icon"><img src="img/icon-blue-ease.png" width="60" class="img-responsive"></div>
+          <h3 class="text-white">Operational ease</h3>
+          <p class="text-white">Reuse known and trusted methods for backups, snapshots, replication, and other operational tasks</p>
+        </div>
+      </div>
+  </div>
+
+    <!-- Third party tools -->
+
+    <div class="container-fluid">
+      <div class="container tools-third">
+      <div class="col-md-12 text-center">
+        <h2 class="text-light text-gray-title">Connect third-party tools</h2>
+        <p class="text-light text-gray-title">via standard ODBC, JDBC, Postgres connectors</p>
+      </div>
+      <div class="col-md-12 connect-tools">
+        <ul class="third-party-logos list-inline text-center">
+          <li><img src="img/logo-grafana.jpg" width="152" class="vcenter img-responsive"></li>
+          <li><img src="img/logo-statsd.jpg" width="132" class="vcenter img-responsive"></li>
+          <li><img src="img/logo-pentaho.jpg" width="175" class="vcenter img-responsive"></li>
+          <li><img src="img/logo-kafka.jpg" width="142" class="vcenter img-responsive"></li>
+          <li><img src="img/logo-tableau.jpg" width="213" class="vcenter img-responsive"></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+
+    <!-- Testimonial -->
+
+    <div class="container-fluid testimonial">
+      <div class="container speech-bubble">
+      <div class="col-md-9 col-md-push-3 text-center"><h3 class="text-light text-gray-body testimonial-copy">“We’re now using the data from Timescale heavily for our customer support operations. We’re really happy with it and are really benefitting from the service. Thank you!”</h3><h3 class="text-light text-blue-dark name-quote">- Dan P., Kuna Systems</h3></div>
+      <div class="col-md-3 col-md-pull-9 testimonial-logo"><img src="img/logo-kuna.png" width="150" class="center-block img-responsive" data-pin-nopin="true"></div>
+      </div>
+    </div>
+
+    <!-- Business stories -->
+
+    <div class="container-fluid business-stories-outer">
+        <div class="stories-background" id="story-image"></div>
+        <div class="container business-stories">
+            <div class="col-md-2"><h2 class="text-light text-gray-title">Business stories</h2></div>
+            <div class="col-md-3 col-md-push-7 col-sm-push business-stories-menu">
+                <ul class="list-unstyled" id="story-links">
+                    <li class="container__story-link"><h4 class="active">Industrial Machine Learning</h4></li>
+                    <li class="container__story-link"><h4>Smart Home</h4></li>
+                    <li class="container__story-link"><h4>Transportation and Logistics</h4></li>
+                    <li class="container__story-link"><h4>IoT Platforms</h4></li>
+                </ul>
+            </div>
+            <div class="col-md-5 col-md-pull-2 col-sm-pull" id="story-description">
+                <h3 class="text-regular text-gray-title">Industrial Machine Learning</h3>
+                <p class="text-regular text-gray-body">Data scientists developing a predictive maintenance service at one industrial sensing company were faced with two problems: how to interactively sift through their raw data; and how to measure their model effectiveness over time. In particular, they wanted to compare the performance of various model iterations to measure improvement.</p>
+                <p class="text-regular text-gray-body">With TimescaleDB, not only are they now able to store their raw data, but also capture metadata related to the model’s performance: accuracy, latency, etc. Because TimescaleDB supports pure SQL, they use their existing tools to query the data. Our complex query support means they can monitor model effectiveness by cohort, providing a real-time machine learning dashboard.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog & latest press -->
+
+    <div class="container blog-press">
+      <div class="row">
+      <div class="col-md-12">
+        <h2 class="text-light text-gray-title post-title">Past & upcoming presentations</h2>
+      </div>
+      </div>
+      <div class="row">
+      <div class="col-md-6">
+        <div class="post-entry">
+          <a href="http://pgconf.us/conferences/2017" target="_blank"><h4 class="post-entry-headline">Building a scalable time-series database using PostgreSQL</h4></a>
+          <p>March 30, 2017,  PGConf US, Jersey City, NJ</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="post-entry">
+        <a href="https://conferences.oreilly.com/strata/strata-ca/public/schedule/detail/55902" target="_blank"><h4 class="post-entry-headline">Designing a time series database to support IoT workloads</h4></a>
+        <p>March 15, 2017,  Strata - Hadoop World, San Jose, CA</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+    <hr />
+
+    <!-- Contact us modal -->
+
+    <div class="modal fade" id="success-message" tabindex="-1" role="dialog" aria-labelledby="success-message-label">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content"
+                id="success-message__content">
+                <div class="modal-header"></div>
+                <div class="modal-body clearfix">
+                    <header>
+                        <h3>Thanks for your message!/h3>
+                        <h5>We'll be in touch soon.</h5>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="demoForm" tabindex="-1" role="dialog" aria-labelledby="demoFormLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="display:none;" id="signup-content-result">
+                <div class="modal-header"></div>
+                <div class="modal-body clearfix">
+                    <header>
+                        <h3>Thanks for your message!</h3>
+                        <h5>We'll be in touch soon.</h5>
+                    </header>
+                </div>
+            </div>
+            <div class="modal-content" id="signup-content">
+                <div class="modal-body clearfix">
+                    <div id="signup-form-wrapper" class="form-wrapper">
+                        <header>
+                            <h2>Contact us</h2>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        </header>
+                        <form id="formId" data-toggle="validator" role="form" data-disable="true">
+                            <div class="clearfix form-fields">
+                                <div class="input-container grid-100">
+                                    <div class="form-group has-feedback">
+                                        <div class="help-block with-errors"></div>
+                                        <div class="input-group">
+                                            <input id="email" type="email" class="form-control mod_form" name="email" placeholder="Email" data-error="Please enter a valid email address" required>
+                                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="input-container grid-100">
+                                    <div class="form-group has-feedback">
+                                        <div class="help-block with-errors"></div>
+                                        <div class="input-group">
+                                            <input id="company" type="text" class="form-control mod_form" name="company" placeholder="Company / project" data-error="Please enter a company or project" required>
+                                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix form-fields">
+                                <div class="input-container grid-100">
+                                  <div class="form-group has-feedback">
+                                     <div class="help-block with-errors"></div>
+                                     <div class="input-group">
+                                    <textarea class="form-control noresize mod_form message-padding" name="description" id="message" type="text" placeholder="Message" data-error="Please enter your message" rows="3" required></textarea>
+                                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                  </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer clearfix">
+                                <div class="footer-left grid-45"></div>
+                                <div class="footer-right grid-50">
+                                    <button
+                                        type="submit"
+                                        class="btn-lg btn-form center-block contact-btn text-white text-extra-bold">
+                                        Send message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer/legal -->
+
+        <footer class="container footer">
+        <div class="row logo-links">
+          <div class="col-md-4">
+            <img src="img/timescale-wordmark-blue.svg" width="200" class="img-responsive footer-logo">
+            <h4 class="text-gray-title text-light">An open-source time-series database optimized for fast ingest and complex queries.</h4>
+          </div>
+          <ul class="list-inline text-right footer-nav">
+            <li><a href="how-it-works.html"><h4>How it works</h4></a></li>
+            <li><a href="about.html"><h4>About</h4></a></li>
+            <li><a href="#demoForm" data-toggle="modal"><h4>Contact</h4></a></li>
+          </ul>
+        </div>
+        <div class="row cityscape">
+          <img src="img/illustration-cityscape.svg" class="center-block img-responsive">
+          <h4 class="text-gray-title text-center built-in">Built with <span class="glyphicon glyphicon-heart text-blue-link built-in-heart"></span> in NYC x Stockholm x LA</h4>
+          <div class="copyright">
+            <div class="text-center text-gray-body copyright">Copyright &copy; 2017. Timescale. All rights reserved.</div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/form.js"></script>
+
+    <script src="js/validator.js"></script>
+    <script src="bundle.js"></script>
+  </body>
+
+</html>
