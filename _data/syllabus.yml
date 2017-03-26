@@ -281,7 +281,7 @@
           link: https://www.cs.cornell.edu/people/egs/papers/beehive.pdf
       type: lecture
     - date: W 04/19
-      lecture-topic:
+      lecture-topic: Security
       reading-topic: Content delivery
       readings:
         - name: Experiences with CoralCDN&#58; A Five-Year Operational View
@@ -293,7 +293,7 @@
           link: http://www.cs.washington.edu/homes/piatek/papers/BitTyrant.pdf
       type: lecture
     - date: M 04/24
-      lecture-topic: Security and block chain
+      lecture-topic: Block chain
       reading-topic: Security
       signups:
           - name: Secure Untrusted Data Repository (SUNDR)
