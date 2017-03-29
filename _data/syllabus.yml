@@ -208,6 +208,7 @@
     - date: W 03/29
       lecture-topic: Machine learning
       reading-topic: Graph processing
+      slides: L13-ml
       readings:
         - name: GraphLab&#58; A New Framework For Parallel Machine Learning
           link: http://event.cwi.nl/uai2010/papers/UAI2010_0171.pdf
