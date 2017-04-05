@@ -230,6 +230,7 @@
     - date: W 04/05
       lecture-topic: Scheduling
       reading-topic: Geo-distributed computation
+      slides: L14-cluster-scheduling
       signups:
         - name: Aggregation and Degradation in JetStream&#58; Streaming Analytics in the Wide Area
           link: https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-rabkin.pdf
