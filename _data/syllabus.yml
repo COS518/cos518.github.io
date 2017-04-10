@@ -309,17 +309,16 @@
       readings:
         - name: Bitcoin&#58; A Peer-to-Peer Electronic Cash System
           link: https://bitcoin.org/bitcoin.pdf
-        - name: Blockstack&#58; A Gloal Naming and Storage System Secured by Blockchains
+        - name: Blockstack&#58; A Global Naming and Storage System Secured by Blockchains
           link: http://www.cs.princeton.edu/~mfreed/docs/blockstack-atc16.pdf
       signups:
       type: lecture
     - date: M 05/01
       lecture-topic:
       reading-topic: Blockchain
-      readings:
+      signups:
         - name: Ethereum&#58; A Next-Generation Smart Contract and Decentralized Application Platform
           link: https://github.com/ethereum/wiki/wiki/White-Paper
-      signups:
         - name: Bitcoin-NG&#58; A Scalable Blockchain Protocol
           link: https://arxiv.org/abs/1510.02037
       type: lecture
