@@ -259,6 +259,7 @@
     - date: W 04/12
       lecture-topic: Distributed hash tables
       reading-topic: Pub/sub
+      slides: L15-dhts
       readings:
         - name: Kafka&#58; a Distributed Messaging System for Log Processing
           link: http://research.microsoft.com/en-us/um/people/srikanth/netdb11/netdb11papers/netdb11-final12.pdf
