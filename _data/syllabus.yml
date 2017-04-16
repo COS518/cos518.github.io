@@ -272,6 +272,7 @@
     - date: M 04/17
       lecture-topic: Content delivery
       reading-topic: Distributed hash tables
+      slides: L16-CDNs
       readings:
         - name: Chord&#58; A Scalable Peer-to-peer Lookup Service for Internet Applications
           link: https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf
