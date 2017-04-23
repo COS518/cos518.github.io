@@ -298,8 +298,10 @@
           link: http://www.cs.washington.edu/homes/piatek/papers/BitTyrant.pdf
       type: lecture
     - date: M 04/24
-      lecture-topic: Privacy
       reading-topic: Security
+      readings:
+          - name: SPORC - Group Collaboration using Untrusted Cloud Resources (optional)
+            link: http://www.cs.princeton.edu/~mfreed/docs/sporc-osdi10.pdf
       signups:
           - name: Secure Untrusted Data Repository (SUNDR)
             link: https://www.usenix.org/legacy/event/osdi04/tech/full_papers/li_j/li_j.pdf
@@ -317,7 +319,7 @@
       signups:
       type: lecture
     - date: M 05/01
-      lecture-topic:
+      lecture-topic: Privacy/anonymity
       reading-topic: Blockchain
       signups:
         - name: Ethereum&#58; A Next-Generation Smart Contract and Decentralized Application Platform
@@ -327,7 +329,7 @@
       type: lecture
     - date: M 05/03
       lecture-topic:
-      reading-topic: Privacy
+      reading-topic: Privacy/anonymity
       signups:
         - name: Tor&#58; The Second-Generation Onion Router
           link: https://svn.torproject.org/svn/projects/design-paper/tor-design.pdf
