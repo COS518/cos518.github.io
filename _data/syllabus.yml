@@ -337,10 +337,6 @@
         - name: Freenet&#58; A Distributed Anonymous Information Storage and Retrieval System
           link: http://homepage.divms.uiowa.edu/~ghosh/freenet.pdf
       type: lecture
-    - date: TBD
-      lecture-topic:
-      reading-topic: Project presentation
-      type: exam
     - date: Tu 05/16
       lecture-topic:
       reading-topic: Final project report due
