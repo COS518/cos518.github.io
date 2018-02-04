@@ -5,7 +5,7 @@ usage() {
 }
 
 HOST=cycles.cs.princeton.edu
-PUBDIR=/n/fs/csweb/courses/archive/spr17/cos518
+PUBDIR=/n/fs/csweb/courses/archive/spr18/cos518
 
 publish() {
   # Yeah, this is aggressive, but whatever
