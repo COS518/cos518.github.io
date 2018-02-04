@@ -3,7 +3,7 @@
     - date: M 02/05
       lecture-topic: Introduction
       reading-topic: Introduction
-      slides: L1-intro
+      # slides: L1-intro
       readings:
         - name: Hints for Computer System Design
           link: papers/hints.pdf
@@ -15,7 +15,7 @@
     - date: W 02/07
       lecture-topic: Naming and weak consistency
       reading-topic: Naming
-      slides: L2-naming-consistency
+      # slides: L2-naming-consistency
       readings:
         - name: End-to-End Arguments in System Design
           link: papers/end-to-end.pdf
@@ -26,8 +26,6 @@
       lecture-topic: Team selections due
       reading-topic:
       readings:
-        - name: Email cos518-staff@lists.cs.princeton.edu
-          link: mailto&#58;cos518-staff@lists.cs.princeton.edu
       type: exam
 
 - unit: Storage
@@ -35,7 +33,7 @@
     - date: M 02/12
       lecture-topic: Strong consistency
       reading-topic: Weak consistency
-      slides: L3-strong-consistency
+      # slides: L3-strong-consistency
       readings:
         - name: Managing Update Conflicts in Bayou, a Weakly Connected Replicated Storage System
           link: https://people.eecs.berkeley.edu/~brewer/cs262b/update-conflicts.pdf
@@ -54,7 +52,7 @@
     - date: W 02/14
       lecture-topic: Consensus
       reading-topic: Strong consistency
-      slides: L4-consensus
+      # slides: L4-consensus
       signups:
         - name: Object Storage on CRAQ
           link: https://www.usenix.org/legacy/event/usenix09/tech/full_papers/terrace/terrace.pdf
@@ -66,7 +64,7 @@
     - date: M 02/19
       lecture-topic: Transactions
       reading-topic: Consensus
-      slides: L5-transactions
+      # slides: L5-transactions
       readings:
         - name: In Search of an Understandable Consensus Algorithm (Raft)
           link: https://raft.github.io/raft.pdf
@@ -83,7 +81,7 @@
     - date: W 02/21
       lecture-topic: Transactions 2, Log-based storage
       reading-topic: Transactions
-      slides: L6-transactions-II
+      # slides: L6-transactions-II
       readings:
         - name: Spanner&#58; Google's Globally-Distributed Database
           link: https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf
@@ -103,7 +101,7 @@
     - date: M 02/26
       lecture-topic: Column stores
       reading-topic: K-V stores
-      slides: L7-db-stores
+      # slides: L7-db-stores
       readings:
         - name: LevelDB
           link: https://www.igvita.com/2012/02/06/sstable-and-log-structured-storage-leveldb/
@@ -118,7 +116,7 @@
     - date: W 02/28
       lecture-topic: Flash
       reading-topic: Column stores
-      slides: L8-flash
+      # slides: L8-flash
       signups:
         - name: Bigtable&#58; A Distributed Storage System for Structured Data
           link: https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf
@@ -137,7 +135,7 @@
     - date: M 03/05
       lecture-topic: Caching
       reading-topic: Flash
-      slides: L9-caching
+      # slides: L9-caching
       signups:
         - name: SSDAlloc&#58; Hybrid SSD/RAM Memory Management Made Easy
           link: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/Badam.pdf
@@ -150,7 +148,7 @@
     - date: W 03/07
       lecture-topic: Batch processing
       reading-topic: Caching
-      slides: L10-mapreduce
+      # slides: L10-mapreduce
       readings:
         - name: The Case for RAMClouds&#58; Scalable High-Performance Storage Entirely in DRAM
           link: http://web.stanford.edu/~ouster/cgi-bin/papers/ramcloud.pdf
@@ -172,7 +170,7 @@
     - date: W 03/14
       lecture-topic: Stream processing
       reading-topic: Batch processing
-      slides: L11-streaming
+      # slides: L11-streaming
       readings:
         - name: MapReduce &#58; Simplified Data Processing on Large Clusters
           link: https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
@@ -193,7 +191,7 @@
     - date: M 03/26
       lecture-topic: Graph processing
       reading-topic: Stream processing
-      slides: L12-graph-processing
+      # slides: L12-graph-processing
       readings:
         - name: The world beyond batch&#58; Streaming 101
           link: https://www.oreilly.com/ideas/the-world-beyond-batch-streaming-101
@@ -208,7 +206,7 @@
     - date: W 03/28
       lecture-topic: Machine learning
       reading-topic: Graph processing
-      slides: L13-ml
+      # slides: L13-ml
       readings:
         - name: GraphLab&#58; A New Framework For Parallel Machine Learning
           link: http://event.cwi.nl/uai2010/papers/UAI2010_0171.pdf
@@ -230,7 +228,7 @@
     - date: W 04/04
       lecture-topic: Scheduling
       reading-topic: Geo-distributed computation
-      slides: L14-cluster-scheduling
+      # slides: L14-cluster-scheduling
       signups:
         - name: Aggregation and Degradation in JetStream&#58; Streaming Analytics in the Wide Area
           link: https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-rabkin.pdf
@@ -259,7 +257,7 @@
     - date: W 04/11
       lecture-topic: Distributed hash tables
       reading-topic: Pub/sub
-      slides: L15-dhts
+      # slides: L15-dhts
       readings:
         - name: Kafka&#58; a Distributed Messaging System for Log Processing
           link: http://research.microsoft.com/en-us/um/people/srikanth/netdb11/netdb11papers/netdb11-final12.pdf
@@ -272,7 +270,7 @@
     - date: M 04/16
       lecture-topic: Content delivery
       reading-topic: Distributed hash tables
-      slides: L16-CDNs
+      # slides: L16-CDNs
       readings:
         - name: Chord&#58; A Scalable Peer-to-peer Lookup Service for Internet Applications
           link: https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf
@@ -287,7 +285,7 @@
     - date: W 04/18
       lecture-topic: Security
       reading-topic: Content delivery
-      slides: L17-security
+      # slides: L17-security
       readings:
         - name: Experiences with CoralCDN&#58; A Five-Year Operational View
           link: https://www.coralcdn.org/docs/coral-nsdi10.pdf
@@ -321,7 +319,7 @@
     - date: M 04/30
       lecture-topic: Privacy/anonymity
       reading-topic: Blockchain
-      slides: L19-anonymity
+      # slides: L19-anonymity
       signups:
         - name: Ethereum&#58; A Next-Generation Smart Contract and Decentralized Application Platform
           link: https://github.com/ethereum/wiki/wiki/White-Paper
