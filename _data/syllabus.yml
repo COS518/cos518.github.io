@@ -1,6 +1,6 @@
 - unit: Fundamentals
   sessions:
-    - date: M 02/06
+    - date: M 02/05
       lecture-topic: Introduction
       reading-topic: Introduction
       slides: L1-intro
@@ -12,7 +12,7 @@
         - name: Jeff Dean numbers
           link: papers/jeff-dean-numbers.pdf
       type: lecture
-    - date: W 02/08
+    - date: W 02/07
       lecture-topic: Naming and weak consistency
       reading-topic: Naming
       slides: L2-naming-consistency
@@ -22,7 +22,7 @@
         - name: Zooko's Triangle
           link: papers/zooko-triangle.pdf
       type: lecture
-    - date: F 02/10
+    - date: F 02/09
       lecture-topic: Team selections due
       reading-topic:
       readings:
@@ -32,7 +32,7 @@
 
 - unit: Storage
   sessions:
-    - date: M 02/13
+    - date: M 02/12
       lecture-topic: Strong consistency
       reading-topic: Weak consistency
       slides: L3-strong-consistency
@@ -51,7 +51,7 @@
         - name: Bolt-on Causal Consistency
           link: http://www.bailis.org/papers/bolton-sigmod2013.pdf
       type: lecture
-    - date: W 02/15
+    - date: W 02/14
       lecture-topic: Consensus
       reading-topic: Strong consistency
       slides: L4-consensus
@@ -63,7 +63,7 @@
         - name: Making Geo-Replicated Systems Fast as Possible, Consistent When Necessary
           link: http://www.cs.otago.ac.nz/cosc440/readings/osdi12-final-162.pdf
       type: lecture
-    - date: M 02/20
+    - date: M 02/19
       lecture-topic: Transactions
       reading-topic: Consensus
       slides: L5-transactions
@@ -80,7 +80,7 @@
         - name: There Is More Consensus in Egalitarian Parliaments
           link: https://www.cs.cmu.edu/~dga/papers/epaxos-sosp2013.pdf
       type: lecture
-    - date: W 02/22
+    - date: W 02/21
       lecture-topic: Transactions 2, Log-based storage
       reading-topic: Transactions
       slides: L6-transactions-II
@@ -93,14 +93,14 @@
         - name: Extracting More Concurrency from Distributed Transactions (ROCOCO)
           link: https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-mu.pdf
       type: lecture
-    - date: F 02/24
+    - date: F 02/23
       lecture-topic: Project proposals due
       reading-topic:
       readings:
         - name: Private piazza post
           link: https://piazza.com/class/iykmzbdqtzs452
       type: exam
-    - date: M 02/27
+    - date: M 02/26
       lecture-topic: Column stores
       reading-topic: K-V stores
       slides: L7-db-stores
@@ -115,7 +115,7 @@
         - name: Cache Craftiness for Fast Multicore Key-Value Storage (Masstree)
           link: https://pdos.csail.mit.edu/papers/masstree:eurosys12.pdf
       type: lecture
-    - date: W 03/01
+    - date: W 02/28
       lecture-topic: Flash
       reading-topic: Column stores
       slides: L8-flash
@@ -127,14 +127,14 @@
         - name: HyperDex&#58; A Distributed, Searchable Key-Value Store
           link: http://www.cs.princeton.edu/courses/archive/fall13/cos518/papers/hyperdex.pdf
       type: lecture
-    - date: F 03/03
+    - date: F 03/02
       lecture-topic: Finalize project proposal
       reading-topic:
       readings:
         - name: Private piazza post
           link: https://piazza.com/class/iykmzbdqtzs452
       type: exam
-    - date: M 03/06
+    - date: M 03/05
       lecture-topic: Caching
       reading-topic: Flash
       slides: L9-caching
@@ -147,7 +147,7 @@
           link: http://www.cs.yale.edu/homes/mahesh/papers/corfumain-final.pdf
 
       type: lecture
-    - date: W 03/08
+    - date: W 03/07
       lecture-topic: Batch processing
       reading-topic: Caching
       slides: L10-mapreduce
@@ -162,14 +162,14 @@
         - name: EC-Cache&#58; Load-balanced, Low-Latency Cluster Caching with Online Erasure Coding
           link: https://www.usenix.org/system/files/conference/osdi16/osdi16-rashmi.pdf
       type: lecture
-    - date: M 03/13
+    - date: M 03/12
       lecture-topic: Interim project presentations
       reading-topic:
       type: presentations
 
 - unit: Big Data
   sessions:
-    - date: W 03/15
+    - date: W 03/14
       lecture-topic: Stream processing
       reading-topic: Batch processing
       slides: L11-streaming
@@ -182,15 +182,15 @@
         - name: Dryad&#58; Distributed Data-Parallel Programs from Sequential Building Blocks
           link: https://www.microsoft.com/en-us/research/wp-content/uploads/2007/03/eurosys07.pdf
       type: lecture
-    - date: M 03/20
+    - date: M 03/19
       lecture-topic: Spring Break
       reading-topic:
       type: noclass
-    - date: W 03/22
+    - date: W 03/21
       lecture-topic: Spring Break
       reading-topic:
       type: noclass
-    - date: M 03/27
+    - date: M 03/26
       lecture-topic: Graph processing
       reading-topic: Stream processing
       slides: L12-graph-processing
@@ -205,7 +205,7 @@
         - name: MillWheel&#58; Fault-Tolerant Stream Processing at Internet Scale
           link: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41378.pdf
       type: lecture
-    - date: W 03/29
+    - date: W 03/28
       lecture-topic: Machine learning
       reading-topic: Graph processing
       slides: L13-ml
@@ -218,7 +218,7 @@
         - name: Pregel&#58; A System for Large-Scale Graph Processing
           link: https://kowshik.github.io/JPregel/pregel_paper.pdf
       type: lecture
-    - date: M 04/03
+    - date: M 04/02
       lecture-topic:
       reading-topic: Machine Learning
       signups:
@@ -227,7 +227,7 @@
         - name: Scaling Distributed Machine Learning with the Parameter Server
           link: https://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf
       type: lecture
-    - date: W 04/05
+    - date: W 04/04
       lecture-topic: Scheduling
       reading-topic: Geo-distributed computation
       slides: L14-cluster-scheduling
@@ -239,7 +239,7 @@
         - name: CLARINET&#58; WAN-Aware Optimization for Analytics Queries
           link: http://pages.cs.wisc.edu/~akella/papers/clarinet.pdf
       type: lecture
-    - date: M 04/10
+    - date: M 04/09
       lecture-topic:
       reading-topic: Scheduling
       readings:
@@ -256,7 +256,7 @@
 
 - unit: Applications
   sessions:
-    - date: W 04/12
+    - date: W 04/11
       lecture-topic: Distributed hash tables
       reading-topic: Pub/sub
       slides: L15-dhts
@@ -269,7 +269,7 @@
         - name: A DHT-based Infrastructure for Content-based Publish/Subscribe Services
           link: papers/dht-pub-sub.pdf
       type: lecture
-    - date: M 04/17
+    - date: M 04/16
       lecture-topic: Content delivery
       reading-topic: Distributed hash tables
       slides: L16-CDNs
@@ -284,7 +284,7 @@
         - name: Beehive&#58; O(1) Lookup Performance for Power-Law Query Distributions in Peer-to-Peer Overlays
           link: https://www.cs.cornell.edu/people/egs/papers/beehive.pdf
       type: lecture
-    - date: W 04/19
+    - date: W 04/18
       lecture-topic: Security
       reading-topic: Content delivery
       slides: L17-security
@@ -297,7 +297,7 @@
         - name: BitTyrant&#58; Do incentives build robustness in BitTorrent?
           link: http://www.cs.washington.edu/homes/piatek/papers/BitTyrant.pdf
       type: lecture
-    - date: M 04/24
+    - date: M 04/23
       reading-topic: Security
       readings:
           - name: SPORC - Group Collaboration using Untrusted Cloud Resources (optional)
@@ -308,7 +308,7 @@
           - name: CryptDB&#58; Protecting Confidentiality with Encrypted Query Processing
             link: https://people.csail.mit.edu/nickolai/papers/popa-cryptdb.pdf
       type: lecture
-    - date: W 04/26
+    - date: W 04/25
       lecture-topic: Blockchain + Blockstack (Guest - Muneeb Ali)
       reading-topic: Blockchain
       readings:
@@ -318,7 +318,7 @@
           link: http://www.cs.princeton.edu/~mfreed/docs/blockstack-atc16.pdf
       signups:
       type: lecture
-    - date: M 05/01
+    - date: M 04/30
       lecture-topic: Privacy/anonymity
       reading-topic: Blockchain
       slides: L19-anonymity
@@ -328,7 +328,7 @@
         - name: Bitcoin-NG&#58; A Scalable Blockchain Protocol
           link: https://arxiv.org/abs/1510.02037
       type: lecture
-    - date: M 05/03
+    - date: M 05/02
       lecture-topic:
       reading-topic: Privacy/anonymity
       signups:
@@ -337,7 +337,7 @@
         - name: Freenet&#58; A Distributed Anonymous Information Storage and Retrieval System
           link: http://homepage.divms.uiowa.edu/~ghosh/freenet.pdf
       type: lecture
-    - date: Tu 05/16
+    - date: Tu 05/15
       lecture-topic:
-      reading-topic: Final project report due
+      reading-topic: Final project report due (Dean's date)
       type: exam

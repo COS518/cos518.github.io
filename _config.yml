@@ -1,6 +1,6 @@
 # Course configuration
 course_title: 'COS518: Advanced Computer Systems'
-course_year: 2017
+course_year: 2018
 course_term: Spring
 directory:
   - name: 'home'
@@ -8,7 +8,7 @@ directory:
   - syllabus
   - projects
   - name: 'piazza'
-    path: 'https://piazza.com/princeton/spring2017/cos518'
+    path: 'https://piazza.com/princeton/spring2018/cos518'
 
 # Jekyll configuration
 markdown: kramdown
