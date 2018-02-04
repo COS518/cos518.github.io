@@ -3,24 +3,18 @@
     - date: M 02/05
       lecture-topic: Introduction
       reading-topic: Introduction
-      # slides: L1-intro
+      slides: L1-intro
       readings:
-        - name: Hints for Computer System Design
-          link: papers/hints.pdf
-        - name: Worse is Better is Worse
-          link: papers/worse-is-worse.pdf
-        - name: Jeff Dean numbers
-          link: papers/jeff-dean-numbers.pdf
       type: lecture
     - date: W 02/07
       lecture-topic: Naming and weak consistency
       reading-topic: Naming
       # slides: L2-naming-consistency
       readings:
+        - name: Hints for Computer System Design
+          link: papers/hints.pdf
         - name: End-to-End Arguments in System Design
           link: papers/end-to-end.pdf
-        - name: Zooko's Triangle
-          link: papers/zooko-triangle.pdf
       type: lecture
     - date: F 02/09
       lecture-topic: Team selections due
