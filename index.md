@@ -24,7 +24,7 @@ As part of the graduate curriculum, successful completion of the course will sat
   - Room: TBD
 - **Instructors**
   - Professor: [Michael Freedman](http://www.cs.princeton.edu/~mfreed/)
-  - Teaching Assistant: [Andrew Or(http://www.cs.princeton.edu/~andrewor)
+  - Teaching Assistant: [Andrew Or](http://www.cs.princeton.edu/~andrewor)
 - **Grading**
   - 10% Paper presentation
   - 10% Participation (class, Piazza)
