@@ -32,6 +32,7 @@ publish() {
     --exclude '*~' \
     --exclude '.git*' \
     --exclude bin \
+    --exclude archive \
     --exclude staging \
     --copy-links \
     _site/* \
