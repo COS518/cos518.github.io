@@ -6,6 +6,7 @@ usage() {
 
 HOST=cycles.cs.princeton.edu
 PUBDIR=/n/fs/csweb/courses/archive/spr18/cos518
+PRINCETON_USER=${PRINCETON_USER:-$USER}
 
 publish() {
   # Yeah, this is aggressive, but whatever
@@ -36,9 +37,9 @@ publish() {
     --exclude staging \
     --copy-links \
     _site/* \
-    $USER@$HOST:$PUBDIR
+    $PRINCETON_USER@$HOST:$PUBDIR
 
-  ssh $USER@$HOST "find $PUBDIR ! -path $PUBDIR | xargs chgrp -R cos518"
+  ssh $PRINCETON_USER@$HOST "find $PUBDIR ! -path $PUBDIR | xargs chgrp -R cos518"
 }
 
 while getopts "m:" opt; do
