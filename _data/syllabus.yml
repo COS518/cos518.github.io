@@ -40,8 +40,8 @@
           link: http://cs.ucsb.edu/~ravenben/classes/276/papers/dynamo-sosp07.pdf
         - name: PNUTS&#58; Yahoo!'s Hosted Data Serving Platform
           link: http://www.cs.ucsb.edu/~agrawal/fall2009/PNUTS.pdf
-        - name: Bolt-on Causal Consistency
-          link: http://www.bailis.org/papers/bolton-sigmod2013.pdf
+        - name: TAO&#58; Facebook’s Distributed Data Store for the Social Graph
+          link: https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf
       type: lecture
     - date: W 02/14
       lecture-topic: Consensus
