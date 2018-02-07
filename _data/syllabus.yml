@@ -33,8 +33,8 @@
       readings:
         - name: Managing Update Conflicts in Bayou, a Weakly Connected Replicated Storage System
           link: https://people.eecs.berkeley.edu/~brewer/cs262b/update-conflicts.pdf
-        - name: Operational transformations
-          link: https://en.wikipedia.org/wiki/Operational_transformation
+        #- name: Operational transformations
+        #  link: https://en.wikipedia.org/wiki/Operational_transformation
       signups:
         - name: Dynamo&#58; Amazon's Highly Available Key-value store
           link: http://cs.ucsb.edu/~ravenben/classes/276/papers/dynamo-sosp07.pdf
