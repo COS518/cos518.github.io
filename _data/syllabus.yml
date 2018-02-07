@@ -50,8 +50,10 @@
       signups:
         - name: Object Storage on CRAQ
           link: https://www.usenix.org/legacy/event/usenix09/tech/full_papers/terrace/terrace.pdf
-        - name: Stronger Semantics for Low-Latency Geo-Replicated Storage
-          link: http://www.cs.princeton.edu/~mfreed/docs/eiger-nsdi13.pdf
+        #- name: Stronger Semantics for Low-Latency Geo-Replicated Storage
+        #  link: http://www.cs.princeton.edu/~mfreed/docs/eiger-nsdi13.pdf
+        - name: Don't Settle for Eventual&#58; Scalable Causal Consistency for Wide-Area Storage with COPS
+          link: http://www.cs.princeton.edu/~mfreed/docs/cops-sosp11.pdf
         - name: Making Geo-Replicated Systems Fast as Possible, Consistent When Necessary
           link: https://www.usenix.org/system/files/conference/osdi12/osdi12-final-162.pdf
       type: lecture
@@ -236,12 +238,14 @@
         - name: Dominant Resource Fairness&#58; Fair Allocation of Multiple Resource Types
           link: https://people.eecs.berkeley.edu/~alig/papers/drf.pdf
       signups:
-        - name: Mesos&#58; A Platform for Fine-Grained Resource Sharing in the Data Center
-          link: https://people.eecs.berkeley.edu/~alig/papers/mesos.pdf
-        - name: Efficient Coflow Scheduling with Varys
-          link: http://www.mosharaf.com/wp-content/uploads/varys-sigcomm14.pdf
+        #- name: Mesos&#58; A Platform for Fine-Grained Resource Sharing in the Data Center
+        #  link: https://people.eecs.berkeley.edu/~alig/papers/mesos.pdf
+        #- name: Efficient Coflow Scheduling with Varys
+        #  link: http://www.mosharaf.com/wp-content/uploads/varys-sigcomm14.pdf
         - name: Sparrow&#58; Distributed, Low Latency Scheduling
           link: https://cs.stanford.edu/~matei/papers/2013/sosp_sparrow.pdf
+        - name: SLAQ&#58; Quality-Driven Scheduling for Distributed Machine Learning
+          link: http://www.cs.princeton.edu/~mfreed/docs/slaq-socc17.pdf
       type: lecture
 
 - unit: Applications
