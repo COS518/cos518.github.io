@@ -9,7 +9,7 @@
     - date: W 02/07
       lecture-topic: Naming and weak consistency
       reading-topic: Naming
-      # slides: L2-naming-consistency
+      slides: L2-naming-consistency
       readings:
         - name: Hints for Computer System Design
           link: papers/hints.pdf
