@@ -53,7 +53,7 @@
         - name: Stronger Semantics for Low-Latency Geo-Replicated Storage
           link: http://www.cs.princeton.edu/~mfreed/docs/eiger-nsdi13.pdf
         - name: Making Geo-Replicated Systems Fast as Possible, Consistent When Necessary
-          link: http://www.cs.otago.ac.nz/cosc440/readings/osdi12-final-162.pdf
+          link: https://www.usenix.org/system/files/conference/osdi12/osdi12-final-162.pdf
       type: lecture
     - date: M 02/19
       lecture-topic: Transactions
@@ -65,10 +65,8 @@
         - name: Viewstamped Replication Revisited (optional)
           link: http://pmg.csail.mit.edu/papers/vr-revisited.pdf
       signups:
-        - name: The Chubby lock service for loosely-coupled distributed systems
-          link: https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf
         - name: Mencius&#58; Building Efficient Replicated State Machines for WANs
-          link: https://www.usenix.org/legacy/event/osdi08/tech/full_papers/mao/mao_html/
+          link: http://www.sysnet.ucsd.edu/~yamao/pub/mencius-osdi.pdf
         - name: There Is More Consensus in Egalitarian Parliaments
           link: https://www.cs.cmu.edu/~dga/papers/epaxos-sosp2013.pdf
       type: lecture
