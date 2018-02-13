@@ -67,10 +67,12 @@
         - name: Viewstamped Replication Revisited (optional)
           link: http://pmg.csail.mit.edu/papers/vr-revisited.pdf
       signups:
-        - name: Mencius&#58; Building Efficient Replicated State Machines for WANs
-          link: http://www.sysnet.ucsd.edu/~yamao/pub/mencius-osdi.pdf
+        #- name: Mencius&#58; Building Efficient Replicated State Machines for WANs
+        #  link: http://www.sysnet.ucsd.edu/~yamao/pub/mencius-osdi.pdf
         - name: There Is More Consensus in Egalitarian Parliaments
           link: https://www.cs.cmu.edu/~dga/papers/epaxos-sosp2013.pdf
+        - name: Just say NO to Paxos Overhead&#58; Replacing Consensus with Network Ordering
+          link: https://www.usenix.org/system/files/conference/osdi16/osdi16-li.pdf
       type: lecture
     - date: W 02/21
       lecture-topic: Transactions 2, Log-based storage
@@ -80,10 +82,12 @@
         - name: Spanner&#58; Google's Globally-Distributed Database
           link: https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf
       signups:
-        - name: Calvin&#58; Fast Distributed Transactions for Partitioned Database Systems
-          link: http://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf
+        #- name: Calvin&#58; Fast Distributed Transactions for Partitioned Database Systems
+        #  link: http://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf
         - name: Extracting More Concurrency from Distributed Transactions (ROCOCO)
           link: https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-mu.pdf
+        - name: Eris&#58; Coordination-Free Consistent Transactions Using In-Network Concurrency Control
+          link: https://drkp.net/papers/eris-sosp17.pdf
       type: lecture
     - date: F 02/23
       lecture-topic: Project proposals due
