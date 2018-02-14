@@ -46,7 +46,7 @@
     - date: W 02/14
       lecture-topic: Consensus
       reading-topic: Strong consistency
-      # slides: L4-consensus
+      slides: L4-consensus
       signups:
         - name: Object Storage on CRAQ
           link: https://www.usenix.org/legacy/event/usenix09/tech/full_papers/terrace/terrace.pdf
