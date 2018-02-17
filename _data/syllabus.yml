@@ -60,7 +60,7 @@
     - date: M 02/19
       lecture-topic: Transactions
       reading-topic: Consensus
-      # slides: L5-transactions
+      slides: L5-transactions
       readings:
         - name: In Search of an Understandable Consensus Algorithm (Raft)
           link: https://raft.github.io/raft.pdf
