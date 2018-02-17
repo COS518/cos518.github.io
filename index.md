@@ -13,7 +13,7 @@ COS-518 is a graduate course in computer systems. Its goals are:
 
 This course particularly focuses on the reading and study of recent research papers, with a heavy focus on distributed systems.
 
-It will also include introductory lectures to related topics, a small number of in-depth programming assignments, as well as a semester-long implementation-heavy group project.  COS-518 assumes a basic familiarity with computer systems and networking concepts.  Students are expected to read papers before the class, and participate in the discussion during the class.
+It will also include introductory lectures to related topics, as well as a semester-long implementation-heavy group project.  COS-518 assumes a basic familiarity with computer systems and networking concepts.  Students are expected to read papers before the class, and participate in the discussion during the class.
 
 As part of the graduate curriculum, successful completion of the course will satisfy the count towards fulfilling both the programming requirement and a breadth course requirement in the Computer Systems areas.
 
@@ -26,8 +26,7 @@ As part of the graduate curriculum, successful completion of the course will sat
   - Professor: [Michael Freedman](http://www.cs.princeton.edu/~mfreed/)
   - Teaching Assistant: [Andrew Or](http://www.cs.princeton.edu/~andrewor/)
 - **Grading**
-  - 10% Paper presentation
-  - 10% Participation (class, Piazza)
-  - 10% In-class "Q&A"
-  - 20% Programming assignments
+  - 15% Paper presentations
+  - 15% Participation (class, Piazza)
+  - 20% In-class "Q&A"
   - 50% Course project (10% proposal, 40% final)
