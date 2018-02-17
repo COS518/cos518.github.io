@@ -106,8 +106,8 @@
       signups:
         - name: SILT&#58; A Memory-Efficient, High-Performance Key-Value Store
           link: https://www.cs.cmu.edu/~dga/papers/silt-sosp2011.pdf
-        - name: MICA&#58; A Holistic Approach to Fast In-Memory Key-Value Storage
-          link: https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-lim.pdf
+        #- name: MICA&#58; A Holistic Approach to Fast In-Memory Key-Value Storage
+        #  link: https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-lim.pdf
         - name: Cache Craftiness for Fast Multicore Key-Value Storage (Masstree)
           link: https://pdos.csail.mit.edu/papers/masstree:eurosys12.pdf
       type: lecture
@@ -120,8 +120,8 @@
           link: https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf
         - name: C-Store&#58; A Column-oriented DBMS
           link: https://pdfs.semanticscholar.org/3b33/67f8f0d4692abe6c111a14bb702f30ab20a3.pdf
-        - name: HyperDex&#58; A Distributed, Searchable Key-Value Store
-          link: http://www.cs.princeton.edu/courses/archive/fall13/cos518/papers/hyperdex.pdf
+        - name: Replex&#58; A Scalable, Highly Available Multi-Index Data Store
+          link: http://www.cs.princeton.edu/~mfreed/docs/replex-atc16.pdf
       type: lecture
     - date: F 03/02
       lecture-topic: Finalize project proposal
