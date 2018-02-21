@@ -75,7 +75,7 @@
           link: https://www.usenix.org/system/files/conference/osdi16/osdi16-li.pdf
       type: lecture
     - date: W 02/21
-      lecture-topic: Transactions 2, Log-based storage
+      lecture-topic: Transactions 2
       reading-topic: Transactions
       slides: L6-transactions-II
       readings:
