@@ -99,7 +99,7 @@
     - date: M 02/26
       lecture-topic: Column stores
       reading-topic: K-V stores
-      # slides: L7-db-stores
+      slides: L7-db-stores
       readings:
         - name: LevelDB
           link: https://www.igvita.com/2012/02/06/sstable-and-log-structured-storage-leveldb/
@@ -135,28 +135,31 @@
       reading-topic: Flash
       # slides: L9-caching
       signups:
-        - name: SSDAlloc&#58; Hybrid SSD/RAM Memory Management Made Easy
-          link: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/Badam.pdf
+        #- name: SSDAlloc&#58; Hybrid SSD/RAM Memory Management Made Easy
+        #  link: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/Badam.pdf
         - name: RIPQ&#58; Advanced Photo Caching on Flash for Facebook
           link: https://www.cs.cornell.edu/projects/quicksilver/public_pdfs/ripq.pdf
         - name: CORFU&#58; A Shared Log Design for Flash Clusters
           link: http://www.cs.yale.edu/homes/mahesh/papers/corfumain-final.pdf
-
+        - name: Write Once, Get 50% Free&#58; Saving SSD Erase Costs Using WOM Codes
+          link: https://www.usenix.org/system/files/conference/fast15/fast15-paper-yadgar.pdf
       type: lecture
     - date: W 03/07
       lecture-topic: Batch processing
       reading-topic: Caching
       # slides: L10-mapreduce
       readings:
-        - name: The Case for RAMClouds&#58; Scalable High-Performance Storage Entirely in DRAM
-          link: http://web.stanford.edu/~ouster/cgi-bin/papers/ramcloud.pdf
       signups:
-        - name: TAO&#58; Facebook's Distributed Data Store for the Social Graph
-          link: https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf
+        #- name: The Case for RAMClouds&#58; Scalable High-Performance Storage Entirely in DRAM
+        #  link: http://web.stanford.edu/~ouster/cgi-bin/papers/ramcloud.pdf
+        - name: Fast Crash Recovery in RAMCloud
+          link: http://www.scs.stanford.edu/~rumble/papers/ramcloud_sosp2011.pdf
         - name: Scaling Memcache at Facebook
           link: https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf
-        - name: EC-Cache&#58; Load-balanced, Low-Latency Cluster Caching with Online Erasure Coding
-          link: https://www.usenix.org/system/files/conference/osdi16/osdi16-rashmi.pdf
+        - name: Cliffhanger&#58; Scaling Performance Cliffs in Web Memory Caches
+          link: https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-cidon.pdf
+        #- name: EC-Cache&#58; Load-balanced, Low-Latency Cluster Caching with Online Erasure Coding
+        #  link: https://www.usenix.org/system/files/conference/osdi16/osdi16-rashmi.pdf
       type: lecture
     - date: M 03/12
       lecture-topic: Interim project presentations
