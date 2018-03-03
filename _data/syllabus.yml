@@ -124,13 +124,6 @@
         - name: Replex&#58; A Scalable, Highly Available Multi-Index Data Store
           link: http://www.cs.princeton.edu/~mfreed/docs/replex-atc16.pdf
       type: lecture
-    - date: F 03/02
-      lecture-topic: Finalize project proposal
-      reading-topic:
-      readings:
-        - name: Private piazza post
-          link: https://piazza.com/class/jd859433p6c6nn
-      type: exam
     - date: M 03/05
       lecture-topic: Caching
       reading-topic: Flash
@@ -164,6 +157,13 @@
         #- name: EC-Cache&#58; Load-balanced, Low-Latency Cluster Caching with Online Erasure Coding
         #  link: https://www.usenix.org/system/files/conference/osdi16/osdi16-rashmi.pdf
       type: lecture
+    - date: F 03/09
+      lecture-topic: Finalize project proposal
+      reading-topic:
+      readings:
+        - name: Private piazza post
+          link: https://piazza.com/class/jd859433p6c6nn
+      type: exam
     - date: M 03/12
       lecture-topic: Stream processing
       reading-topic: Batch processing
