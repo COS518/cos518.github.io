@@ -178,18 +178,6 @@
           link: https://www.microsoft.com/en-us/research/wp-content/uploads/2007/03/eurosys07.pdf
       type: lecture
     - date: W 03/14
-      lecture-topic: Interim project presentations
-      reading-topic:
-      type: presentations
-    - date: M 03/19
-      lecture-topic: Spring Break
-      reading-topic:
-      type: noclass
-    - date: W 03/21
-      lecture-topic: Spring Break
-      reading-topic:
-      type: noclass
-    - date: M 03/26
       lecture-topic: Graph processing
       reading-topic: Stream processing
       # slides: L12-graph-processing
@@ -204,7 +192,15 @@
         - name: MillWheel&#58; Fault-Tolerant Stream Processing at Internet Scale
           link: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41378.pdf
       type: lecture
-    - date: W 03/28
+    - date: M 03/19
+      lecture-topic: Spring Break
+      reading-topic:
+      type: noclass
+    - date: W 03/21
+      lecture-topic: Spring Break
+      reading-topic:
+      type: noclass
+    - date: M 03/26
       lecture-topic: Machine learning
       reading-topic: Graph processing
       # slides: L13-ml
@@ -217,6 +213,10 @@
         - name: Pregel&#58; A System for Large-Scale Graph Processing
           link: https://kowshik.github.io/JPregel/pregel_paper.pdf
       type: lecture
+    - date: W 03/28
+      lecture-topic: Interim project presentations
+      reading-topic:
+      type: presentations
     - date: M 04/02
       lecture-topic:
       reading-topic: Machine Learning
