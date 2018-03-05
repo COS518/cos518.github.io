@@ -174,8 +174,8 @@
       signups:
         - name: Resilient Distriuted Datasets&#58; A Fault-Tolerant Abstraction for In-Memory Cluster Computing
           link: https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf
-        - name: Dryad&#58; Distributed Data-Parallel Programs from Sequential Building Blocks
-          link: https://www.microsoft.com/en-us/research/wp-content/uploads/2007/03/eurosys07.pdf
+        - name: Improving MapReduce Performance in Heterogeneous Environments
+          link: https://cs.stanford.edu/~matei/papers/2008/osdi_late.pdf
       type: lecture
     - date: W 03/14
       lecture-topic: Graph processing
