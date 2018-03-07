@@ -143,7 +143,7 @@
     - date: W 03/07
       lecture-topic: Batch processing
       reading-topic: Caching
-      # slides: L10-mapreduce
+      slides: L10-batch
       readings:
       signups:
         #- name: The Case for RAMClouds&#58; Scalable High-Performance Storage Entirely in DRAM
