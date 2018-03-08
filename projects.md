@@ -30,9 +30,9 @@ for project selection is aggressive.
 
 ## Timeline
 - Team selection (2/9)
-- Project proposal (2/23)
-- Project selection (3/2):  Project topic/proposal finalized
-- Interim project presentation (3/12)
+- Project proposal (2/26)
+- Project selection (3/9):  Project topic/proposal finalized
+- Interim project presentation (3/28)
 - Project presentation (near Dean's Date)
 - Final report (Dean's Date of 5/15)
 <br><br>
