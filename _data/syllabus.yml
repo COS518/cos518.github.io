@@ -223,8 +223,8 @@
       lecture-topic:
       reading-topic: Machine Learning
       signups:
-        - name: TensorFlow&#58; Large-Scale Machine Learning on Heterogeneous Distributed Systems
-          link: http://download.tensorflow.org/paper/whitepaper2015.pdf
+        - name: TensorFlow&#58; A System for Large-Scale Machine Learning
+          link: https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf
         - name: Scaling Distributed Machine Learning with the Parameter Server
           link: https://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf
       type: lecture
