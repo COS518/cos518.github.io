@@ -217,11 +217,11 @@
       lecture-topic: Interim project presentations
       reading-topic:
       readings:
-        - name: 
       type: presentations
     - date: M 04/02p
-      lecture-topic:
+      lecture-topic: Scheduling
       reading-topic: Machine Learning
+      # slides: L14-cluster-scheduling
       readings:
         - name: Machine Learning&#58; The High-Interest Credit Card of Technical Debt
           link: https://research.google.com/pubs/archive/43146.pdf
@@ -232,19 +232,7 @@
           link: https://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf
       type: lecture
     - date: W 04/04
-      lecture-topic: Scheduling
-      reading-topic: Geo-distributed computation
-      # slides: L14-cluster-scheduling
-      signups:
-        - name: Aggregation and Degradation in JetStream&#58; Streaming Analytics in the Wide Area
-          link: https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-rabkin.pdf
-        - name: Low Latency Analytics of Geo-distributed Data in the Wide Area
-          link: http://research.microsoft.com/en-us/um/people/ga/gda.pdf
-        - name: CLARINET&#58; WAN-Aware Optimization for Analytics Queries
-          link: http://pages.cs.wisc.edu/~akella/papers/clarinet.pdf
-      type: lecture
-    - date: M 04/09
-      lecture-topic:
+      lecture-topic: TBD
       reading-topic: Scheduling
       readings:
         - name: Dominant Resource Fairness&#58; Fair Allocation of Multiple Resource Types
@@ -262,6 +250,13 @@
 
 - unit: Applications
   sessions:
+    - date: M 04/09
+      lecture-topic: TBD
+      reading-topic: TBD
+      readings:
+      signups:
+      type: lecture
+
     - date: W 04/11
       lecture-topic: Distributed hash tables
       reading-topic: Pub/sub
