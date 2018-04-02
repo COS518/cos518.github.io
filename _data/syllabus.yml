@@ -232,7 +232,7 @@
           link: https://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf
       type: lecture
     - date: W 04/04
-      lecture-topic: TBD
+      lecture-topic: Security and secure systems
       reading-topic: Scheduling
       readings:
         - name: Dominant Resource Fairness&#58; Fair Allocation of Multiple Resource Types
@@ -251,29 +251,22 @@
 - unit: Applications
   sessions:
     - date: M 04/09
-      lecture-topic: TBD
-      reading-topic: TBD
+      lecture-topic: Distributed hash tables
+      reading-topic: Security and secure systems
       readings:
+          - name: Secure Untrusted Data Repository (SUNDR)
+            link: https://www.usenix.org/legacy/event/osdi04/tech/full_papers/li_j/li_j.pdf
       signups:
+          - name: SPORC&#58; Group Collaboration using Untrusted Cloud Resources
+            link: http://www.cs.princeton.edu/~mfreed/docs/sporc-osdi10.pdf
+          - name: CryptDB&#58; Protecting Confidentiality with Encrypted Query Processing
+            link: https://people.csail.mit.edu/nickolai/papers/popa-cryptdb.pdf
       type: lecture
 
     - date: W 04/11
-      lecture-topic: Distributed hash tables
-      reading-topic: Pub/sub
-      # slides: L15-dhts
-      readings:
-        - name: Kafka&#58; a Distributed Messaging System for Log Processing
-          link: http://research.microsoft.com/en-us/um/people/srikanth/netdb11/netdb11papers/netdb11-final12.pdf
-      signups:
-        - name: Wormhole&#58; Reliable Pub-Sub to Support Geo-replicated Internet Services
-          link: https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-sharma.pdf
-        - name: A DHT-based Infrastructure for Content-based Publish/Subscribe Services
-          link: papers/dht-pub-sub.pdf
-      type: lecture
-    - date: M 04/16
-      lecture-topic: Content delivery
+      lecture-topic: Publish/subscribe systems
       reading-topic: Distributed hash tables
-      # slides: L16-CDNs
+      # slides: L15-dhts
       readings:
         - name: Chord&#58; A Scalable Peer-to-peer Lookup Service for Internet Applications
           link: https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf
@@ -285,53 +278,64 @@
         - name: Beehive&#58; O(1) Lookup Performance for Power-Law Query Distributions in Peer-to-Peer Overlays
           link: https://www.cs.cornell.edu/people/egs/papers/beehive.pdf
       type: lecture
+
+    - date: M 04/16
+      lecture-topic: Content delivery systems
+      reading-topic: Publish/subscribe systems
+      # slides: L16-CDNs
+      readings:
+        - name: Kafka&#58; a Distributed Messaging System for Log Processing
+          link: https://www.microsoft.com/en-us/research/wp-content/uploads/2017/09/Kafka.pdf
+      signups:
+        - name: Wormhole&#58; Reliable Pub-Sub to Support Geo-replicated Internet Services
+          link: https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-sharma.pdf
+        - name: A DHT-based Infrastructure for Content-based Publish/Subscribe Services
+          link: papers/dht-pub-sub.pdf
+      type: lecture
+
     - date: W 04/18
-      lecture-topic: Security
-      reading-topic: Content delivery
+      lecture-topic: Coding in systems
+      reading-topic: Content delivery systems
       # slides: L17-security
       readings:
         - name: Experiences with CoralCDN&#58; A Five-Year Operational View
           link: https://www.coralcdn.org/docs/coral-nsdi10.pdf
       signups:
-        - name: CobWeb&#58; Optimal Resource Utilization in Content Distribution Networks
-          link: https://www.cs.cornell.edu/people/egs/papers/cobweb.pdf
+        - name: TBD
         - name: BitTyrant&#58; Do incentives build robustness in BitTorrent?
           link: http://www.cs.washington.edu/homes/piatek/papers/BitTyrant.pdf
       type: lecture
+
     - date: M 04/23
-      reading-topic: Security
+      lecture-topic: Bitcoin and blockchains
+      reading-topic: Coding in systems
       readings:
-          - name: SPORC - Group Collaboration using Untrusted Cloud Resources (optional)
-            link: http://www.cs.princeton.edu/~mfreed/docs/sporc-osdi10.pdf
       signups:
-          - name: Secure Untrusted Data Repository (SUNDR)
-            link: https://www.usenix.org/legacy/event/osdi04/tech/full_papers/li_j/li_j.pdf
-          - name: CryptDB&#58; Protecting Confidentiality with Encrypted Query Processing
-            link: https://people.csail.mit.edu/nickolai/papers/popa-cryptdb.pdf
-      type: lecture
+
     - date: W 04/25
-      lecture-topic: Blockchain + Blockstack (Guest - Muneeb Ali)
-      reading-topic: Blockchain
+      lecture-topic: Ethereum and smart contracts
+      reading-topic: Bitcoin and blockchains
       readings:
         - name: Bitcoin&#58; A Peer-to-Peer Electronic Cash System
           link: https://bitcoin.org/bitcoin.pdf
+      signups:
         - name: Blockstack&#58; A Global Naming and Storage System Secured by Blockchains
           link: http://www.cs.princeton.edu/~mfreed/docs/blockstack-atc16.pdf
-      signups:
-      type: lecture
-    - date: M 04/30
-      lecture-topic: Privacy/anonymity
-      reading-topic: Blockchain
-      # slides: L19-anonymity
-      signups:
-        - name: Ethereum&#58; A Next-Generation Smart Contract and Decentralized Application Platform
-          link: https://github.com/ethereum/wiki/wiki/White-Paper
         - name: Bitcoin-NG&#58; A Scalable Blockchain Protocol
           link: https://arxiv.org/abs/1510.02037
       type: lecture
+    - date: M 04/30
+      lecture-topic: Anonymity systems
+      reading-topic: Ethereum and smart contracts
+      # slides: L19-anonymity
+      readings:
+        - name: Ethereum&#58; A Next-Generation Smart Contract and Decentralized Application Platform
+          link: https://github.com/ethereum/wiki/wiki/White-Paper
+      signups:
+      type: lecture
     - date: M 05/02
-      lecture-topic:
-      reading-topic: Privacy/anonymity
+      lecture-topic: TimescaleDB
+      reading-topic: Anonymity systems
       signups:
         - name: Tor&#58; The Second-Generation Onion Router
           link: https://svn.torproject.org/svn/projects/design-paper/tor-design.pdf
