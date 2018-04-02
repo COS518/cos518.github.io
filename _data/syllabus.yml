@@ -218,10 +218,10 @@
       reading-topic:
       readings:
       type: presentations
-    - date: M 04/02p
+    - date: M 04/02
       lecture-topic: Scheduling
       reading-topic: Machine Learning
-      # slides: L14-cluster-scheduling
+      slides: L14-cluster-scheduling
       readings:
         - name: Machine Learning&#58; The High-Interest Credit Card of Technical Debt
           link: https://research.google.com/pubs/archive/43146.pdf
