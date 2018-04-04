@@ -231,9 +231,13 @@
         - name: Scaling Distributed Machine Learning with the Parameter Server
           link: https://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf
       type: lecture
+
+- unit: Applications
+  sessions:
     - date: W 04/04
       lecture-topic: Security and secure systems
       reading-topic: Scheduling
+      slides: L15-security
       readings:
         - name: Dominant Resource Fairness&#58; Fair Allocation of Multiple Resource Types
           link: https://people.eecs.berkeley.edu/~alig/papers/drf.pdf
@@ -248,8 +252,6 @@
           link: http://www.cs.princeton.edu/~mfreed/docs/slaq-socc17.pdf
       type: lecture
 
-- unit: Applications
-  sessions:
     - date: M 04/09
       lecture-topic: Distributed hash tables
       reading-topic: Security and secure systems
