@@ -297,7 +297,7 @@
       type: lecture
 
     - date: W 04/18
-      lecture-topic: Coding in systems
+      lecture-topic: Coding in systems (guest lecturer Wyatt Lloyd)
       reading-topic: Content delivery systems (experiences)
       # slides: L17-security
       readings:
@@ -321,7 +321,7 @@
           link: https://www.usenix.org/system/files/conference/osdi16/osdi16-rashmi.pdf
 
     - date: W 04/25
-      lecture-topic: Ethereum and smart contracts
+      lecture-topic: Ethereum and smart contracts  (guest lecturer Arvind Narayanan)
       reading-topic: Bitcoin and blockchains
       readings:
         - name: Bitcoin&#58; A Peer-to-Peer Electronic Cash System
