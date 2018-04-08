@@ -154,8 +154,6 @@
           link: https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf
         #- name: Cliffhanger&#58; Scaling Performance Cliffs in Web Memory Caches
         #  link: https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-cidon.pdf
-        #- name: EC-Cache&#58; Load-balanced, Low-Latency Cluster Caching with Online Erasure Coding
-        #  link: https://www.usenix.org/system/files/conference/osdi16/osdi16-rashmi.pdf
       type: lecture
     - date: F 03/09
       lecture-topic: Finalize project proposal
@@ -265,8 +263,9 @@
             link: https://people.csail.mit.edu/nickolai/papers/popa-cryptdb.pdf
       type: lecture
 
+
     - date: W 04/11
-      lecture-topic: Publish/subscribe systems
+      lecture-topic: Content-delivery systems (designs)
       reading-topic: Distributed hash tables
       # slides: L15-dhts
       readings:
@@ -279,39 +278,47 @@
           link: https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf
         - name: Beehive&#58; O(1) Lookup Performance for Power-Law Query Distributions in Peer-to-Peer Overlays
           link: https://www.cs.cornell.edu/people/egs/papers/beehive.pdf
+        #- name: Thialfi&#58; A Client Notification Service for Internet-Scale Applications
+        # link: https://research.google.com/pubs/archive/37474.pdf
       type: lecture
 
     - date: M 04/16
-      lecture-topic: Content delivery systems
-      reading-topic: Publish/subscribe systems
+      lecture-topic: Content delivery systems (experiences)
+      reading-topic: Content-delivery systems (designs)
       # slides: L16-CDNs
       readings:
-        - name: Kafka&#58; a Distributed Messaging System for Log Processing
-          link: https://www.microsoft.com/en-us/research/wp-content/uploads/2017/09/Kafka.pdf
+        - name: Trackerless BitTorrent (optional)
+          link: http://www.bittorrent.org/beps/bep_0005.html
       signups:
-        - name: Wormhole&#58; Reliable Pub-Sub to Support Geo-replicated Internet Services
-          link: https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-sharma.pdf
-        - name: A DHT-based Infrastructure for Content-based Publish/Subscribe Services
-          link: papers/dht-pub-sub.pdf
+        - name: The Effectiveness of Request Redirection on CDN Robustness
+          link: https://www.usenix.org/legacy/events/osdi02/tech/full_papers/wang/wang.pdf
+        - name: BitTyrant&#58; Do incentives build robustness in BitTorrent?
+          link: http://www.cs.washington.edu/homes/piatek/papers/BitTyrant.pdf
       type: lecture
 
     - date: W 04/18
       lecture-topic: Coding in systems
-      reading-topic: Content delivery systems
+      reading-topic: Content delivery systems (experiences)
       # slides: L17-security
       readings:
+      signups:
+        - name: The Akamai Network&#58; A Platform for High-Performance Internet Applications
+          link: https://www.akamai.com/es/es/multimedia/documents/technical-publication/the-akamai-network-a-platform-for-high-performance-internet-applications-technical-publication.pdf
         - name: Experiences with CoralCDN&#58; A Five-Year Operational View
           link: https://www.coralcdn.org/docs/coral-nsdi10.pdf
-      signups:
-        - name: TBD
-        - name: BitTyrant&#58; Do incentives build robustness in BitTorrent?
-          link: http://www.cs.washington.edu/homes/piatek/papers/BitTyrant.pdf
       type: lecture
 
     - date: M 04/23
       lecture-topic: Bitcoin and blockchains
       reading-topic: Coding in systems
       readings:
+        - name: f4&#58; Facebook’s Warm BLOB Storage System
+          linke: http://www.cs.princeton.edu/~wlloyd/papers/f4-osdi14.pdf
+      signups:
+        - name: Erasure Coding in Windows Azure Storage
+          link: https://www.usenix.org/system/files/conference/atc12/atc12-final181_0.pdf
+        - name: EC-Cache&#58; Load-balanced, Low-Latency Cluster Caching with Online Erasure Coding
+          link: https://www.usenix.org/system/files/conference/osdi16/osdi16-rashmi.pdf
       signups:
 
     - date: W 04/25
