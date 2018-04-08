@@ -313,7 +313,7 @@
       reading-topic: Coding in systems
       readings:
         - name: f4&#58; Facebook’s Warm BLOB Storage System
-          linke: http://www.cs.princeton.edu/~wlloyd/papers/f4-osdi14.pdf
+          link: http://www.cs.princeton.edu/~wlloyd/papers/f4-osdi14.pdf
       signups:
         - name: Erasure Coding in Windows Azure Storage
           link: https://www.usenix.org/system/files/conference/atc12/atc12-final181_0.pdf
