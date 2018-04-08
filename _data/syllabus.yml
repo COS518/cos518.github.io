@@ -319,7 +319,6 @@
           link: https://www.usenix.org/system/files/conference/atc12/atc12-final181_0.pdf
         - name: EC-Cache&#58; Load-balanced, Low-Latency Cluster Caching with Online Erasure Coding
           link: https://www.usenix.org/system/files/conference/osdi16/osdi16-rashmi.pdf
-      signups:
 
     - date: W 04/25
       lecture-topic: Ethereum and smart contracts
