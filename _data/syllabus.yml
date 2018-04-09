@@ -287,8 +287,8 @@
       reading-topic: Content-delivery systems (designs)
       # slides: L16-CDNs
       readings:
-        - name: Trackerless BitTorrent (optional)
-          link: http://www.bittorrent.org/beps/bep_0005.html
+        #- name: Trackerless BitTorrent (optional)
+        #  link: http://www.bittorrent.org/beps/bep_0005.html
       signups:
         - name: The Effectiveness of Request Redirection on CDN Robustness
           link: https://www.usenix.org/legacy/events/osdi02/tech/full_papers/wang/wang.pdf
