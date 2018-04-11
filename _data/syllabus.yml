@@ -268,6 +268,7 @@
     - date: W 04/11
       lecture-topic: Content-delivery systems (designs)
       reading-topic: Distributed hash tables
+      slides: L17-CDNs-P2P
       readings:
         - name: Chord&#58; A Scalable Peer-to-peer Lookup Service for Internet Applications
           link: https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf
@@ -285,7 +286,7 @@
     - date: M 04/16
       lecture-topic: Content delivery systems (experiences)
       reading-topic: Content-delivery systems (designs)
-      # slides: L16-CDNs
+      # slides: L18-CDNs-Akamai
       readings:
         #- name: Trackerless BitTorrent (optional)
         #  link: http://www.bittorrent.org/beps/bep_0005.html
