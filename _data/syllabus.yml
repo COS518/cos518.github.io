@@ -286,7 +286,7 @@
     - date: M 04/16
       lecture-topic: Content delivery systems (experiences)
       reading-topic: Content-delivery systems (designs)
-      # slides: L18-CDNs-Akamai
+      slides: L18-CDNs-Akamai
       readings:
         #- name: Trackerless BitTorrent (optional)
         #  link: http://www.bittorrent.org/beps/bep_0005.html
