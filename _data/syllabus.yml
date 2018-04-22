@@ -300,7 +300,7 @@
     - date: W 04/18
       lecture-topic: Coding in systems (guest lecturer Wyatt Lloyd)
       reading-topic: Content delivery systems (experiences)
-      # slides: L17-security
+      slides: L19-coding
       readings:
       signups:
         - name: The Akamai Network&#58; A Platform for High-Performance Internet Applications
@@ -312,6 +312,7 @@
     - date: M 04/23
       lecture-topic: Bitcoin and blockchains
       reading-topic: Coding in systems
+      slides: L20-blockchain
       readings:
         - name: f4&#58; Facebook’s Warm BLOB Storage System
           link: http://www.cs.princeton.edu/~wlloyd/papers/f4-osdi14.pdf
@@ -336,7 +337,6 @@
     - date: M 04/30
       lecture-topic: Anonymity systems
       reading-topic: Ethereum and smart contracts
-      # slides: L19-anonymity
       readings:
         - name: Ethereum&#58; A Next-Generation Smart Contract and Decentralized Application Platform
           link: https://github.com/ethereum/wiki/wiki/White-Paper
