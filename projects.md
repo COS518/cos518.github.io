@@ -33,7 +33,7 @@ for project selection is aggressive.
 - Project proposal (2/26)
 - Project selection (3/9):  Project topic/proposal finalized
 - Interim project presentation (3/28)
-- Project presentation (near Dean's Date)
+- Project presentation (5/14)
 - Final report (Dean's Date of 5/15)
 <br><br>
 
