@@ -343,7 +343,7 @@
       signups:
         - name: Demystifying Incentives in the Consensus Computer
           link: https://eprint.iacr.org/2015/702.pdf
-        - name: On Scaling Decentralized Blockchaisn
+        - name: On Scaling Decentralized Blockchains
           link: http://fc16.ifca.ai/bitcoin/papers/CDE+16.pdf
       type: lecture
     - date: M 05/02
