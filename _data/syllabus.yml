@@ -325,6 +325,7 @@
     - date: W 04/25
       lecture-topic: Ethereum and smart contracts  (guest lecturer Arvind Narayanan)
       reading-topic: Bitcoin and blockchains
+      slides: L21-smart-contracts
       readings:
         - name: Bitcoin&#58; A Peer-to-Peer Electronic Cash System
           link: https://bitcoin.org/bitcoin.pdf
