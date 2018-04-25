@@ -341,6 +341,10 @@
         - name: Ethereum&#58; A Next-Generation Smart Contract and Decentralized Application Platform
           link: https://github.com/ethereum/wiki/wiki/White-Paper
       signups:
+        - name: Demystifying Incentives in the Consensus Computer
+          link: https://eprint.iacr.org/2015/702.pdf
+        - name: On Scaling Decentralized Blockchaisn
+          link: http://fc16.ifca.ai/bitcoin/papers/CDE+16.pdf
       type: lecture
     - date: M 05/02
       lecture-topic: TimescaleDB
