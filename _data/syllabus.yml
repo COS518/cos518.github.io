@@ -347,7 +347,7 @@
         - name: On Scaling Decentralized Blockchains
           link: http://fc16.ifca.ai/bitcoin/papers/CDE+16.pdf
       type: lecture
-    - date: M 05/02
+    - date: W 05/02
       lecture-topic: TimescaleDB
       reading-topic: Anonymity systems
       signups:
