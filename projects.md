@@ -106,7 +106,9 @@ Piazza).
 
 ### Presentation
 
-More information forthcoming.
+Final presentations are scheduled right before Dean's Date and should
+include a 15 minute presentations, including motivation, technical
+background, design, implementation, and evaluation details.
 
 ### Final report
 
@@ -118,6 +120,7 @@ For reproduction projects, the post should have a particular focus and
 discussion on the evaluation (setup, comparative results, discussion
 of differences, and so forth).
 
-Your final report must be published on a public forum like Medium as part of
-a course page, to be  determined soon by the instructors.  Source code and
-data should also be made available.
+Your final report will be published on Medium as part of a course
+page.  Source code and data should also be made available.
+
+https://medium.com/princeton-systems-course
