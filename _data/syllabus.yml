@@ -338,6 +338,7 @@
     - date: M 04/30
       lecture-topic: Anonymity systems
       reading-topic: Ethereum and smart contracts
+      slides: L22-anonymity
       readings:
         - name: Ethereum&#58; A Next-Generation Smart Contract and Decentralized Application Platform
           link: https://github.com/ethereum/wiki/wiki/White-Paper
