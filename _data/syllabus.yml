@@ -33,10 +33,10 @@
       signups:
         - name: Dynamo&#58; Amazon's Highly Available Key-value store
           link: http://cs.ucsb.edu/~ravenben/classes/276/papers/dynamo-sosp07.pdf
-        #- name: PNUTS&#58; Yahoo!'s Hosted Data Serving Platform
-        #  link: http://www.cs.ucsb.edu/~agrawal/fall2009/PNUTS.pdf
-        - name: TAO&#58; Facebook’s Distributed Data Store for the Social Graph
-          link: https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf
+        - name: PNUTS&#58; Yahoo!'s Hosted Data Serving Platform
+          link: http://www.cs.ucsb.edu/~agrawal/fall2009/PNUTS.pdf
+        #- name: TAO&#58; Facebook’s Distributed Data Store for the Social Graph
+        #  link: https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf
       type: lecture
 
     - date: W 02/13
@@ -139,6 +139,14 @@
         #  link: http://www.cs.princeton.edu/~mfreed/docs/replex-atc16.pdf
       type: lecture
 
+    - date: F 03/08
+      lecture-topic: Finalize project proposal
+      reading-topic:
+      readings:
+      #  - name: Private piazza post
+      #    link: https://piazza.com/class/jd859433p6c6nn
+      type: exam
+
     - date: M 03/11
       lecture-topic: Distributed Queues and Kafka
       reading-topic: Modern Storage&#58; Flash and NVM
@@ -169,14 +177,6 @@
         #- name: Cliffhanger&#58; Scaling Performance Cliffs in Web Memory Caches
         #  link: https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-cidon.pdf
       type: lecture
-
-    - date: F 03/15
-      lecture-topic: Finalize project proposal
-      reading-topic:
-      readings:
-      #  - name: Private piazza post
-      #    link: https://piazza.com/class/jd859433p6c6nn
-      type: exam
 
     - date: M 03/18
       lecture-topic: Spring Break
@@ -225,14 +225,6 @@
       type: lecture
 
     - date: W 04/03
-      lecture-topic: Initial project presentations
-      reading-topic:
-      type: presentations
-
-- unit: Applications
-  sessions:
-
-    - date: M 04/08
       lecture-topic: Coding in systems
       reading-topic: Scheduling
       readings:
@@ -245,7 +237,10 @@
           link: http://www.cs.princeton.edu/~mfreed/docs/slaq-socc17.pdf
       type: lecture
 
-    - date: W 04/10
+- unit: Applications
+  sessions:
+
+    - date: M 04/08
       lecture-topic: Distributed hash tables
       reading-topic: Coding in systems
       readings:
@@ -258,6 +253,10 @@
           link: https://www.usenix.org/system/files/conference/osdi16/osdi16-rashmi.pdf
       type: lecture
 
+    - date: W 04/10
+      lecture-topic: Interim project presentations
+      reading-topic:
+      type: presentations
 
     - date: M 04/15
       lecture-topic: Content-delivery systems (designs)
@@ -316,11 +315,11 @@
       type: lecture
 
     - date: M 05/13
-      lecture-topic:
-      reading-topic: Final project presentation (9-11:30am)
+      lecture-topic: Final project presentation (9-11:30am)
+      reading-topic: 
       type: exam
 
     - date: Tu 05/14
-      lecture-topic:
-      reading-topic: Final project report due (Dean's date)
+      lecture-topic: Final project report due (Dean's date)
+      reading-topic: 
       type: exam
