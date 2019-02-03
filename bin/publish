@@ -5,7 +5,7 @@ usage() {
 }
 
 HOST=cycles.cs.princeton.edu
-PUBDIR=/n/fs/csweb/courses/archive/spr18/cos518
+PUBDIR=/n/fs/csweb/courses/archive/spr19/cos518
 PRINCETON_USER=${PRINCETON_USER:-$USER}
 
 publish() {
