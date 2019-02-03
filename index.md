@@ -21,7 +21,7 @@ As part of the graduate curriculum, successful completion of the course will sat
 - **Lecture/discussion**
   - Days: Mondays and Wednesdays
   - Time: 9:00am - 10:20pm
-  - Room: TBD
+  - Room: Sherrerd Hall 001
 - **Instructors**
   - Professor: [Michael Freedman](http://www.cs.princeton.edu/~mfreed/)
   - Teaching Assistant: [Zhenyu Song](https://www.linkedin.com/in/zhenyus/)
