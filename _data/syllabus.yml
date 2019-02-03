@@ -8,6 +8,8 @@
       type: lecture
 
 - unit: Storage
+  sessions:
+
     - date: W 02/06
       lecture-topic: Naming and weak consistency
       reading-topic: Naming
@@ -18,7 +20,6 @@
           link: docs/reading-presenting.pdf
       type: lecture
 
-  sessions:
     - date: M 02/11
       lecture-topic: Strong consistency
       reading-topic: Weak consistency
