@@ -29,12 +29,12 @@ to speak to instructors as soon as possible, as the initial timeline
 for project selection is aggressive.
 
 ## Timeline
-- Team selection (2/9)
-- Project proposal (2/26)
-- Project selection (3/9):  Project topic/proposal finalized
-- Interim project presentation (3/28)
-- Project presentation (5/14)
-- Final report (Dean's Date of 5/15)
+- Team selection (2/X)
+- Project proposal (2/X)
+- Project selection (3/X):  Project topic/proposal finalized
+- Interim project presentation (3/X)
+- Project presentation (5/X)
+- Final report (Dean's Date of 5/X)
 <br><br>
 
 ## Assignments
