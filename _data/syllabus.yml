@@ -24,6 +24,7 @@
     - date: M 02/11
       lecture-topic: Strong consistency
       reading-topic: Weak consistency
+      slides: L3-strong-consistency
       readings:
         - name: End-to-End Arguments in System Design
           link: papers/end-to-end.pdf
@@ -43,6 +44,7 @@
     - date: W 02/13
       lecture-topic: Consensus
       reading-topic: Strong consistency
+      slides: L4-consensus
       signups:
         - name: Object Storage on CRAQ
           link: https://www.usenix.org/legacy/event/usenix09/tech/full_papers/terrace/terrace.pdf
