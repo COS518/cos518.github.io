@@ -92,23 +92,36 @@
           link: https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf
         #- name: Extracting More Concurrency from Distributed Transactions (ROCOCO)
         #  link: https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-mu.pdf
-        #- name: Eris&#58; Coordination-Free Consistent Transactions Using In-Network Concurrency Control
-        #  link: https://drkp.net/papers/eris-sosp17.pdf
       type: lecture
 
     - date: M 02/25
-      lecture-topic: Database reliability and recovery
+      lecture-topic: Indexing&#58; BTrees and LSMs
       reading-topic: Transactions 2
       readings:
-        #- name: Private piazza post
-        #  link: https://piazza.com/class/jd859433p6c6nn
+        #- name: Eris&#58; Coordination-Free Consistent Transactions Using In-Network Concurrency Control
+        #  link: https://drkp.net/papers/eris-sosp17.pdf
+        - name: Rococo&#58; Extracting More Concurrency from Distributed Transactions
+          link: https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-mu.pdf
+        - name: Replex&#58; A Scalable, Highly Available Multi-Index Data Store
+          link: http://www.cs.princeton.edu/~mfreed/docs/replex-atc16.pdf
       type: lecture
 
-
     - date: W 02/27
-      lecture-topic: Indexing&#58; BTrees and LSMs
-      reading-topic: Database reliability and recovery
+      lecture-topic: Column stores
+      reading-topic: Indexing and K-V Stores
       readings:
+        - name: LevelDB
+          link: https://blog.acolyer.org/2014/11/26/the-log-structured-merge-tree-lsm-tree/
+      signups:
+        - name: SILT&#58; A Memory-Efficient, High-Performance Key-Value Store
+          link: https://www.cs.cmu.edu/~dga/papers/silt-sosp2011.pdf
+http://cidrdb.org/cidr2017/papers/p82-dong-cidr17.pdf
+        - name: Optimizing Space Amplification in RocksDB
+          link: http://cidrdb.org/cidr2017/papers/p82-dong-cidr17.pdf
+        #- name: MICA&#58; A Holistic Approach to Fast In-Memory Key-Value Storage
+        #  link: https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-lim.pdf
+        #- name: Cache Craftiness for Fast Multicore Key-Value Storage (Masstree)
+        #  link: https://pdos.csail.mit.edu/papers/masstree:eurosys12.pdf
       type: lecture
 
     - date: F 03/01
@@ -118,21 +131,6 @@
       type: exam
 
     - date: M 03/04
-      lecture-topic: Column stores
-      reading-topic: Indexing and K-V Stores
-      readings:
-        #- name: LevelDB
-        #  link: https://www.igvita.com/2012/02/06/sstable-and-log-structured-storage-leveldb/
-      signups:
-        - name: SILT&#58; A Memory-Efficient, High-Performance Key-Value Store
-          link: https://www.cs.cmu.edu/~dga/papers/silt-sosp2011.pdf
-        - name: MICA&#58; A Holistic Approach to Fast In-Memory Key-Value Storage
-          link: https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-lim.pdf
-        #- name: Cache Craftiness for Fast Multicore Key-Value Storage (Masstree)
-        #  link: https://pdos.csail.mit.edu/papers/masstree:eurosys12.pdf
-      type: lecture
-
-    - date: W 03/06
       lecture-topic: Modern Storage&#58; Flash and NVM
       reading-topic: Column stores
       signups:
@@ -140,8 +138,24 @@
         #  link: https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf
         #- name: C-Store&#58; A Column-oriented DBMS
         #  link: https://pdfs.semanticscholar.org/3b33/67f8f0d4692abe6c111a14bb702f30ab20a3.pdf
-        #- name: Replex&#58; A Scalable, Highly Available Multi-Index Data Store
-        #  link: http://www.cs.princeton.edu/~mfreed/docs/replex-atc16.pdf
+      type: lecture
+
+- unit: Big Data
+  sessions:
+    - date: W 03/06
+      lecture-topic: Distributed Queues and Kafka
+      reading-topic: Modern Storage&#58; Flash and NVM
+      signups:
+        #- name: SSDAlloc&#58; Hybrid SSD/RAM Memory Management Made Easy
+        #  link: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/Badam.pdf
+        - name: RIPQ&#58; Advanced Photo Caching on Flash for Facebook
+          link: https://www.cs.cornell.edu/projects/quicksilver/public_pdfs/ripq.pdf
+        - name: Write-Behind Logging
+          link: http://www.vldb.org/pvldb/vol10/p337-arulraj.pdf
+        #- name: CORFU&#58; A Shared Log Design for Flash Clusters
+        #  link: http://www.cs.yale.edu/homes/mahesh/papers/corfumain-final.pdf
+        #- name: Write Once, Get 50% Free&#58; Saving SSD Erase Costs Using WOM Codes
+        #  link: https://www.usenix.org/system/files/conference/fast15/fast15-paper-yadgar.pdf
       type: lecture
 
     - date: F 03/08
@@ -152,24 +166,7 @@
       #    link: https://piazza.com/class/jd859433p6c6nn
       type: exam
 
-- unit: Big Data
-  sessions:
-
     - date: M 03/11
-      lecture-topic: Distributed Queues and Kafka
-      reading-topic: Modern Storage&#58; Flash and NVM
-      signups:
-        #- name: SSDAlloc&#58; Hybrid SSD/RAM Memory Management Made Easy
-        #  link: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/Badam.pdf
-        - name: RIPQ&#58; Advanced Photo Caching on Flash for Facebook
-          link: https://www.cs.cornell.edu/projects/quicksilver/public_pdfs/ripq.pdf
-        - name: CORFU&#58; A Shared Log Design for Flash Clusters
-          link: http://www.cs.yale.edu/homes/mahesh/papers/corfumain-final.pdf
-        #- name: Write Once, Get 50% Free&#58; Saving SSD Erase Costs Using WOM Codes
-        #  link: https://www.usenix.org/system/files/conference/fast15/fast15-paper-yadgar.pdf
-      type: lecture
-
-    - date: W 03/13
       lecture-topic: Batch processing
       reading-topic: 
       readings:
@@ -184,18 +181,8 @@
         #  link: https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-cidon.pdf
       type: lecture
 
-    - date: M 03/18
-      lecture-topic: Spring Break
-      reading-topic:
-      type: noclass
 
-    - date: W 03/20
-      lecture-topic: Spring Break
-      reading-topic:
-      type: noclass
-
-
-    - date: M 03/25
+    - date: W 03/13
       lecture-topic: Stream processing
       reading-topic: Batch processing
       readings:
@@ -208,7 +195,18 @@
           link: https://cs.stanford.edu/~matei/papers/2008/osdi_late.pdf
       type: lecture
 
-    - date: W 03/27
+    - date: M 03/18
+      lecture-topic: Spring Break
+      reading-topic:
+      type: noclass
+
+    - date: W 03/20
+      lecture-topic: Spring Break
+      reading-topic:
+      type: noclass
+
+
+    - date: M 03/25
       lecture-topic: Approximate processing
       reading-topic: Stream processing
       readings:
@@ -223,14 +221,16 @@
           link: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41378.pdf
       type: lecture
 
-    - date: M 04/01
+    - date: W 03/27
       lecture-topic: Scheduling
       reading-topic: Approximate processing
       readings:
       signups:
       type: lecture
+      # Macrobase
 
-    - date: W 04/03
+
+    - date: M 04/01
       lecture-topic: Coding in systems
       reading-topic: Scheduling
       readings:
@@ -246,12 +246,13 @@
 - unit: Applications
   sessions:
 
-    - date: M 04/08
+    - date: W 04/03
+
       lecture-topic: Distributed hash tables
       reading-topic: Coding in systems
       readings:
-        - name: f4&#58; Facebook’s Warm BLOB Storage System
-          link: http://www.cs.princeton.edu/~wlloyd/papers/f4-osdi14.pdf
+#        - name: f4&#58; Facebook’s Warm BLOB Storage System
+#          link: http://www.cs.princeton.edu/~wlloyd/papers/f4-osdi14.pdf
       signups:
         - name: Erasure Coding in Windows Azure Storage
           link: https://www.usenix.org/system/files/conference/atc12/atc12-final181_0.pdf
@@ -259,12 +260,7 @@
           link: https://www.usenix.org/system/files/conference/osdi16/osdi16-rashmi.pdf
       type: lecture
 
-    - date: W 04/10
-      lecture-topic: Interim project presentations
-      reading-topic:
-      type: presentations
-
-    - date: M 04/15
+    - date: M 04/08
       lecture-topic: Content-delivery systems (designs)
       reading-topic: Distributed hash tables
       readings:
@@ -277,7 +273,7 @@
           link: https://www.cs.cornell.edu/people/egs/papers/beehive.pdf
       type: lecture
 
-    - date: W 04/17
+    - date: W 04/10
       lecture-topic: Content delivery systems (experiences)
       reading-topic: Content-delivery systems (designs)
       signups:
@@ -287,7 +283,13 @@
           link: http://www.cs.washington.edu/homes/piatek/papers/BitTyrant.pdf
       type: lecture
 
-    - date: M 04/22
+    - date: M 04/15
+      lecture-topic: Interim project presentations
+      reading-topic:
+      type: presentations
+
+
+    - date: W 04/17
       lecture-topic: Security and secure systems
       reading-topic: Content delivery systems (experiences)
       signups:
@@ -297,7 +299,7 @@
           link: https://www.coralcdn.org/docs/coral-nsdi10.pdf
       type: lecture
 
-    - date: W 04/24
+    - date: M 04/22
       lecture-topic: Bitcoin and blockchains
       reading-topic: Security and secure systems
       signups:
@@ -307,12 +309,17 @@
             link: https://people.csail.mit.edu/nickolai/papers/popa-cryptdb.pdf
       type: lecture
 
-    - date: M 04/29
+    - date: W 04/24
       lecture-topic: Blockstack and decentralized systems
       reading-topic: Bitcoin and blockchains
       readings:
         - name: Bitcoin&#58; A Peer-to-Peer Electronic Cash System
           link: https://bitcoin.org/bitcoin.pdf
+      type: lecture
+
+    - date: M 04/29
+      lecture-topic: TBD
+      readings:
       type: lecture
 
     - date: W 05/01
