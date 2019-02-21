@@ -133,10 +133,10 @@
       lecture-topic: Modern Storage&#58; Flash and NVM
       reading-topic: Column stores
       signups:
-        #- name: Bigtable&#58; A Distributed Storage System for Structured Data
-        #  link: https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf
-        #- name: C-Store&#58; A Column-oriented DBMS
-        #  link: https://pdfs.semanticscholar.org/3b33/67f8f0d4692abe6c111a14bb702f30ab20a3.pdf
+        - name: Bigtable&#58; A Distributed Storage System for Structured Data
+          link: https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf
+        - name: Column-Stores vs. Row-Stores&#58; How Different Are They Really?
+          link: http://www.cs.umd.edu/~abadi/papers/abadi-sigmod08.pdf
       type: lecture
 
 - unit: Big Data
