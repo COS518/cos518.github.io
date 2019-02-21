@@ -97,7 +97,7 @@
     - date: M 02/25
       lecture-topic: Indexing&#58; BTrees and LSMs
       reading-topic: Transactions 2
-      readings:
+      signups:
         #- name: Eris&#58; Coordination-Free Consistent Transactions Using In-Network Concurrency Control
         #  link: https://drkp.net/papers/eris-sosp17.pdf
         - name: Rococo&#58; Extracting More Concurrency from Distributed Transactions
@@ -149,8 +149,10 @@
         #  link: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/Badam.pdf
         - name: RIPQ&#58; Advanced Photo Caching on Flash for Facebook
           link: https://www.cs.cornell.edu/projects/quicksilver/public_pdfs/ripq.pdf
-        - name: Write-Behind Logging
-          link: http://www.vldb.org/pvldb/vol10/p337-arulraj.pdf
+        - name: Flashield&#58; a Key-value Cache that Minimizes Writes to Flash
+          link: https://arxiv.org/pdf/1702.02588.pdf
+        #- name: Write-Behind Logging
+        #  link: http://www.vldb.org/pvldb/vol10/p337-arulraj.pdf
         #- name: CORFU&#58; A Shared Log Design for Flash Clusters
         #  link: http://www.cs.yale.edu/homes/mahesh/papers/corfumain-final.pdf
         #- name: Write Once, Get 50% Free&#58; Saving SSD Erase Costs Using WOM Codes
