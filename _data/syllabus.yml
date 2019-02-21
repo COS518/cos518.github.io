@@ -115,7 +115,6 @@
       signups:
         - name: SILT&#58; A Memory-Efficient, High-Performance Key-Value Store
           link: https://www.cs.cmu.edu/~dga/papers/silt-sosp2011.pdf
-http://cidrdb.org/cidr2017/papers/p82-dong-cidr17.pdf
         - name: Optimizing Space Amplification in RocksDB
           link: http://cidrdb.org/cidr2017/papers/p82-dong-cidr17.pdf
         #- name: MICA&#58; A Holistic Approach to Fast In-Memory Key-Value Storage
