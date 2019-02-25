@@ -97,6 +97,7 @@
     - date: M 02/25
       lecture-topic: Indexing&#58; BTrees and LSMs
       reading-topic: Transactions 2
+      slides: L7-indexing
       signups:
         #- name: Eris&#58; Coordination-Free Consistent Transactions Using In-Network Concurrency Control
         #  link: https://drkp.net/papers/eris-sosp17.pdf
