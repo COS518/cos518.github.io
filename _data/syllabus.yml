@@ -110,6 +110,7 @@
     - date: W 02/27
       lecture-topic: Column stores
       reading-topic: Indexing and K-V Stores
+      slides: L8-db-stores
       readings:
         - name: LevelDB
           link: https://blog.acolyer.org/2014/11/26/the-log-structured-merge-tree-lsm-tree/
