@@ -132,14 +132,15 @@
       type: exam
 
     - date: M 03/04
-      lecture-topic: Modern Storage&#58; Flash and NVM
+      #lecture-topic: Modern Storage&#58; Flash and NVM
+      lecture-topic: Class cancelled (was: Modern Storage&#58; Flash and NVM)
       reading-topic: Column stores
       signups:
         - name: Bigtable&#58; A Distributed Storage System for Structured Data
           link: https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf
         - name: Column-Stores vs. Row-Stores&#58; How Different Are They Really?
           link: http://www.cs.umd.edu/~abadi/papers/abadi-sigmod08.pdf
-      type: Class Cancelled - Snow day!
+      type: noclass
 
 - unit: Big Data
   sessions:
