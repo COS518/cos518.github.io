@@ -148,7 +148,7 @@
 - unit: Big Data
   sessions:
     - date: M 03/11
-      lecture-topic: Distributed Queues and Kafka
+      lecture-topic: Modern Infra&#58; Caching and Distributed Queues
       reading-topic: Modern Storage&#58; Flash and NVM
       signups:
         #- name: SSDAlloc&#58; Hybrid SSD/RAM Memory Management Made Easy
@@ -167,15 +167,20 @@
 
     - date: W 03/13
       lecture-topic: Batch processing
-      reading-topic: 
+      reading-topic: Modern Infra&#58; Caching and Distributed Queues
       readings:
       signups:
         #- name: The Case for RAMClouds&#58; Scalable High-Performance Storage Entirely in DRAM
         #  link: http://web.stanford.edu/~ouster/cgi-bin/papers/ramcloud.pdf
         #- name: Fast Crash Recovery in RAMCloud
         #  link: http://www.scs.stanford.edu/~rumble/papers/ramcloud_sosp2011.pdf
-        #- name: Scaling Memcache at Facebook
-        #  link: https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf
+        - name: Scaling Memcache at Facebook
+          link: https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf
+        - name: Kafka exactly-once semantics
+          link: https://www.confluent.io/blog/exactly-once-semantics-are-possible-heres-how-apache-kafka-does-it/
+        - name: Kafka design, intro to section 1&#58; pages 8 to 13
+          link: https://docs.google.com/document/d/11Jqy_GjUGtdXJK94XGsEIK7CP1SnQGdp2eF0wSw9ra8/edit#
+
         #- name: Cliffhanger&#58; Scaling Performance Cliffs in Web Memory Caches
         #  link: https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-cidon.pdf
       type: lecture
