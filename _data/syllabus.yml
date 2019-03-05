@@ -178,7 +178,7 @@
           link: https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf
         - name: Kafka exactly-once semantics
           link: https://www.confluent.io/blog/exactly-once-semantics-are-possible-heres-how-apache-kafka-does-it/
-        - name: Kafka design, intro to section 1&#58; pages 8 to 13
+        - name: Kafka design doc through sect 1 (pages 8 to 13)
           link: https://docs.google.com/document/d/11Jqy_GjUGtdXJK94XGsEIK7CP1SnQGdp2eF0wSw9ra8/edit#
 
         #- name: Cliffhanger&#58; Scaling Performance Cliffs in Web Memory Caches
