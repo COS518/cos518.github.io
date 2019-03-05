@@ -132,19 +132,22 @@
       type: exam
 
     - date: M 03/04
-      #lecture-topic: Modern Storage&#58; Flash and NVM
-      lecture-topic: Class cancelled, was: Modern Storage&#58; Flash and NVM
+      lecture-topic: Snow day - class cancalled
+      type: noclass
+
+    - date: W 03/06
+      lecture-topic: Modern Storage&#58; Flash and NVM
       reading-topic: Column stores
       signups:
         - name: Bigtable&#58; A Distributed Storage System for Structured Data
           link: https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf
         - name: Column-Stores vs. Row-Stores&#58; How Different Are They Really?
           link: http://www.cs.umd.edu/~abadi/papers/abadi-sigmod08.pdf
-      type: noclass
+      type: lecture
 
 - unit: Big Data
   sessions:
-    - date: W 03/06
+    - date: M 03/11
       lecture-topic: Distributed Queues and Kafka
       reading-topic: Modern Storage&#58; Flash and NVM
       signups:
@@ -162,15 +165,7 @@
         #  link: https://www.usenix.org/system/files/conference/fast15/fast15-paper-yadgar.pdf
       type: lecture
 
-    - date: F 03/08
-      lecture-topic: Finalize project proposal
-      reading-topic:
-      readings:
-      #  - name: Private piazza post
-      #    link: https://piazza.com/class/jd859433p6c6nn
-      type: exam
-
-    - date: M 03/11
+    - date: W 03/13
       lecture-topic: Batch processing
       reading-topic: 
       readings:
@@ -186,7 +181,26 @@
       type: lecture
 
 
-    - date: W 03/13
+    - date: F 03/15
+      lecture-topic: Finalize project proposal
+      reading-topic:
+      readings:
+      #  - name: Private piazza post
+      #    link: https://piazza.com/class/jd859433p6c6nn
+      type: exam
+
+
+    - date: M 03/18
+      lecture-topic: Spring Break
+      reading-topic:
+      type: noclass
+
+    - date: W 03/20
+      lecture-topic: Spring Break
+      reading-topic:
+      type: noclass
+
+    - date: M 03/25
       lecture-topic: Stream processing
       reading-topic: Batch processing
       readings:
@@ -199,19 +213,9 @@
           link: https://cs.stanford.edu/~matei/papers/2008/osdi_late.pdf
       type: lecture
 
-    - date: M 03/18
-      lecture-topic: Spring Break
-      reading-topic:
-      type: noclass
 
-    - date: W 03/20
-      lecture-topic: Spring Break
-      reading-topic:
-      type: noclass
-
-
-    - date: M 03/25
-      lecture-topic: Approximate processing
+    - date: W 03/27
+      lecture-topic: Scheduling
       reading-topic: Stream processing
       readings:
       #  - name: The world beyond batch&#58; Streaming 101
@@ -224,15 +228,6 @@
         - name: MillWheel&#58; Fault-Tolerant Stream Processing at Internet Scale
           link: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41378.pdf
       type: lecture
-
-    - date: W 03/27
-      lecture-topic: Scheduling
-      reading-topic: Approximate processing
-      readings:
-      signups:
-      type: lecture
-      # Macrobase
-
 
     - date: M 04/01
       lecture-topic: Coding in systems
