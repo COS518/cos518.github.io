@@ -170,6 +170,7 @@
     - date: W 03/13
       lecture-topic: Batch processing
       reading-topic: Modern Infra&#58; Caching and Distributed Queues
+      slides: L11-batch
       readings:
       signups:
         #- name: The Case for RAMClouds&#58; Scalable High-Performance Storage Entirely in DRAM
