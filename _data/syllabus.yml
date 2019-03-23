@@ -211,6 +211,7 @@
     - date: M 03/25
       lecture-topic: Stream processing
       reading-topic: Batch processing
+      slides: L12-streaming
       readings:
         - name: MapReduce &#58; Simplified Data Processing on Large Clusters
           link: https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
