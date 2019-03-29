@@ -226,6 +226,7 @@
     - date: W 03/27
       lecture-topic: Scheduling
       reading-topic: Stream processing
+      slides: L13-cluster-scheduling
       readings:
       #  - name: The world beyond batch&#58; Streaming 101
       #    link: https://www.oreilly.com/ideas/the-world-beyond-batch-streaming-101
