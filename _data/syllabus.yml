@@ -242,6 +242,7 @@
     - date: M 04/01
       lecture-topic: Coding in systems
       reading-topic: Scheduling
+      slides: L14-coding
       readings:
         - name: Dominant Resource Fairness&#58; Fair Allocation of Multiple Resource Types
           link: https://people.eecs.berkeley.edu/~alig/papers/drf.pdf
