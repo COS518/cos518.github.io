@@ -273,6 +273,7 @@
     - date: M 04/08
       lecture-topic: Content-delivery systems (designs)
       reading-topic: Distributed hash tables
+      slides: L15-CDNs-P2P
       readings:
         - name: Chord&#58; A Scalable Peer-to-peer Lookup Service for Internet Applications
           link: https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf
@@ -286,6 +287,7 @@
     - date: W 04/10
       lecture-topic: Content delivery systems (experiences)
       reading-topic: Content-delivery systems (designs)
+      slides: L16-CDNs-Akamai
       signups:
         - name: The Effectiveness of Request Redirection on CDN Robustness
           link: https://www.usenix.org/legacy/events/osdi02/tech/full_papers/wang/wang.pdf
