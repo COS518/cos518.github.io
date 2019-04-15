@@ -298,6 +298,7 @@
     - date: M 04/15
       lecture-topic: Security and secure systems
       reading-topic: Content delivery systems (experiences)
+      slides: L18-security
       signups:
         - name: The Akamai Network&#58; A Platform for High-Performance Internet Applications
           link: https://www.akamai.com/es/es/multimedia/documents/technical-publication/the-akamai-network-a-platform-for-high-performance-internet-applications-technical-publication.pdf
