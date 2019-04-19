@@ -332,9 +332,9 @@
         - name: Bitcoin&#58; A Peer-to-Peer Electronic Cash System
           link: https://bitcoin.org/bitcoin.pdf
       signups:
-          - name: Bitcoin-NG: A Scalable Blockchain Protocol
+          - name: Bitcoin-NG&#58; A Scalable Blockchain Protocol
             link: https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-eyal.pdf
-          - name: Arbitrum: Scalable, private smart contracts
+          - name: Arbitrum&#58; Scalable, private smart contracts
             link: https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-kalodner.pdf
                  
       type: lecture
