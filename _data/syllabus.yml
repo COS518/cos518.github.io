@@ -318,7 +318,7 @@
     - date: W 04/24
       lecture-topic: Bitcoin and blockchains
       reading-topic: Security and secure systems
-      slides: L19-bitcoin
+      slides: L19-blockchain
       signups:
           - name: SPORC&#58; Group Collaboration using Untrusted Cloud Resources
             link: http://www.cs.princeton.edu/~mfreed/docs/sporc-osdi10.pdf
