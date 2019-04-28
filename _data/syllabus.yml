@@ -327,8 +327,9 @@
       type: lecture
 
     - date: M 04/29
-      lecture-topic: Blockstack and decentralized systems
+      lecture-topic: Anonymity systems
       reading-topic: Bitcoin and blockchains
+      slides: L20-anonymity
       readings:
         - name: Bitcoin&#58; A Peer-to-Peer Electronic Cash System
           link: https://bitcoin.org/bitcoin.pdf
